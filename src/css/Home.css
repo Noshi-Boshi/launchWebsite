@@ -1,0 +1,119 @@
+html,
+body {
+  margin-top: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Poppins";
+}
+
+@media only screen and (min-device-width: 1110px) {
+  .malaiKofta {
+    width: 460px;
+    position: absolute;
+    right: -1px;
+    top: 0px;
+  }
+  .blueMockup {
+    width: 1060px;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    right: -190px;
+  }
+  .blueCoralLogo {
+    width: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 545px;
+    right: 415px;
+  }
+
+  .orderNow {
+    position: absolute;
+    top: 475px;
+    right: 260px;
+    width: 180px;
+  }
+
+  .RaspberryRicotta {
+    width: 700px;
+    z-index: 1;
+    position: absolute;
+    top: 400px;
+    left: -500px;
+  }
+
+  .googlePlay {
+    margin-left: 320px;
+    margin-top: -100px;
+  }
+  .instaImg {
+    margin: 10px;
+    width: 33px;
+  }
+  .blueCoralLogoWithName {
+    width: 120px;
+    position: absolute;
+    right: 25px;
+    top: 610px;
+  }
+
+  .selectMeal {
+    padding: 8%;
+    line-height: 0.8;
+    font-size: 30px;
+    color: #24465f;
+    font-family: "Poppins";
+    z-index: 1;
+  }
+  .instaSection {
+    margin-left: 450px;
+    margin-top: 220px;
+    line-height: 0.8;
+    font-size: 22px;
+    font-weight: 500;
+    color: #24465f;
+    font-family: "Poppins";
+    z-index: 1;
+  }
+
+  /*------------------recipe section----------------------------*/
+  .recipeHeading {
+    margin-top: 100px;
+    margin-left: 260px;
+  }
+  .cuisine {
+    margin-top: 50px;
+    margin-left: 320px;
+  }
+  .orderRecipes {
+    margin-top: 60px;
+    overflow-x: hidden;
+  }
+  .orderRecipes::-webkit-scrollbar {
+    display: none;
+  }
+  .orderRecipeNow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  /*------------------about us----------------------------*/
+  .shamiKabab {
+    position: absolute;
+    right: -500px;
+    width: 900px;
+  }
+}
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
