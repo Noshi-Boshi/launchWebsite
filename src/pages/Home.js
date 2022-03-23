@@ -10,11 +10,16 @@ import insta from "../assets/insta/drawable-xxxhdpi/Image 1.png";
 import Raspberry from "../assets/Raspberry Ricotta Cake/drawable-xxxhdpi/Raspberry Ricotta Cake.png";
 import googlePLay from "../assets/googlePlay/googlePLay.png";
 import shamiKabab from "../assets/Veg Shami-Kabab/Veg Shami-Kabab.png";
+import Spaghetti from "../assets/Spaghetti Aglio e Olio/Spaghetti Aglio e Olio.png";
 
 import { Row, Col } from "react-bootstrap";
 
 import { ScrollMenu } from "react-horizontal-scrolling-menu";
 import { LeftArrow, RightArrow } from "./arrows/arrows";
+
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { GrMail } from "react-icons/gr";
+import { HiLocationMarker } from "react-icons/hi";
 
 const Home = () => {
   function onWheel(
@@ -111,8 +116,163 @@ const Home = () => {
         </div>
         <img className="orderRecipeNow" src={orderNow} alt="" />
       </section>
+      <img className="shamiKabab" src={shamiKabab} alt="" />
       <section className="aboutUs">
-        <img className="shamiKabab" src={shamiKabab} alt="" />
+        <div className="about">
+          <h1 style={{ color: "#e77063" }}>What are we?</h1>
+          <div className="aboutPara">
+            <span style={{ color: "#e77063" }}>Noshi Boshi</span> is a select
+            meal-kit delivery service that caters to food enthusiasts, budding
+            chefs and culinary professionals. We want to introduce our audience
+            to the different cuisines and techniques of cooking from around the
+            world, by bringing these to them in the form of simple curated
+            recipes and authentic ingredients.
+          </div>
+        </div>
+        <div className="quoteHeading">We’re proud to say that we’re</div>
+        <div className="quote">Your personal sous chef!</div>
+      </section>
+      <img className="Spaghetti" src={Spaghetti} alt="" />
+      <section className="contactUs" style={{ zIndex: "1" }}>
+        <div id="contact-form">
+          <div className="container">
+            <div id="contact-us">
+              <h2 className="contact-heading">Contact Us</h2>
+              <p className="contact-subHeading">
+                Any questions or remarks? Just write us a message!
+              </p>
+            </div>
+            <br />
+            <div className="contact-box">
+              <Row style={{ padding: "2%" }}>
+                <Col
+                  lg={5}
+                  style={{ backgroundColor: "#e77063", borderRadius: "25px" }}
+                >
+                  <div
+                    className="container"
+                    style={{ marginTop: "50px", color: "white" }}
+                  >
+                    <h4>Contact Information</h4>
+                    <p style={{ fontWeight: 300 }}>
+                      Please fill the form and our Team will get back to you
+                      within 24 hours
+                    </p>
+                    <div
+                      style={{
+                        fontWeight: 300,
+                        marginTop: "30px",
+                        marginLeft: "30px",
+                      }}
+                    >
+                      <p style={{ marginBottom: "30px" }}>
+                        <BsFillTelephoneFill style={{ marginRight: "30px" }} />
+                        +91-9911314947
+                      </p>
+                      <p style={{ marginBottom: "30px" }}>
+                        <GrMail style={{ marginRight: "30px" }} />
+                        hello@noshiboshi.com
+                      </p>
+                      <p>
+                        <HiLocationMarker style={{ marginRight: "30px" }} />
+                        223,GB Road,Delhi,India
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+                <br />
+                <Col lg={7} style={{ padding: "2% 4%" }}>
+                  <form
+                    className="my-form"
+                    action="mailto:hello@noshiboshi.com"
+                    method="POST"
+                  >
+                    <Row>
+                      <Col lg={6}>
+                        <div className="form-group">
+                          <label htmlFor="form-first-name">First Name</label>
+                          <input
+                            name="First-name"
+                            type="text"
+                            className="form-control"
+                            id="form-first-name"
+                            required
+                          />
+                        </div>
+                        <br />
+                      </Col>
+                      <Col lg={6}>
+                        <div className="form-group">
+                          <label htmlFor="form-last-name">Last Name</label>
+                          <input
+                            name="Last-Name"
+                            type="text"
+                            className="form-control"
+                            id="form-last-name"
+                            required
+                          />
+                        </div>
+                        <br />
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col lg={6}>
+                        <div className="form-group">
+                          <label htmlFor="form-email">Email Id</label>
+                          <input
+                            type="email"
+                            name="email"
+                            className="form-control"
+                            id="form-email"
+                            required
+                          />
+                        </div>
+                      </Col>
+                      <Col lg={6}>
+                        <div className="form-group">
+                          <label htmlFor="form-subject">
+                            Phone No.(10 Digit)
+                          </label>
+                          <input
+                            type="tel"
+                            name="num"
+                            className="form-control"
+                            id="form-subject"
+                            required
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                    <div className="form-group">
+                      <label htmlFor="form-message"> Message</label>
+                      <textarea
+                        className="form-control"
+                        name="message"
+                        rows={5}
+                        id="form-message"
+                        placeholder="We are here to help! "
+                        required
+                        defaultValue={""}
+                      />
+                    </div>
+                    <button
+                      style={{
+                        marginLeft: "55%",
+                        marginTop: "2%",
+                        borderRadius: "10px",
+                        backgroundColor: "#24465f",
+                      }}
+                      className="btn btn-secondary button"
+                      type="submit"
+                    >
+                      Send message
+                    </button>
+                  </form>
+                </Col>
+              </Row>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

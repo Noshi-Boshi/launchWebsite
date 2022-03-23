@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 html,
 body {
   margin-top: 0px;
@@ -5,6 +6,10 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   font-family: "Poppins";
+}
+.Navbar {
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
 @media only screen and (min-device-width: 1110px) {
@@ -88,7 +93,7 @@ body {
     margin-left: 320px;
   }
   .orderRecipes {
-    margin-top: 60px;
+    margin-top: 100px;
     overflow-x: hidden;
   }
   .orderRecipes::-webkit-scrollbar {
@@ -106,6 +111,90 @@ body {
     position: absolute;
     right: -500px;
     width: 900px;
+    margin-top: -100px;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+  }
+  .about {
+    margin-top: 170px;
+    margin-left: 100px;
+  }
+  .aboutPara {
+    margin: 40px 780px 0px 20px;
+    font-size: 25px;
+    text-align: left;
+    color: #24465f;
+    font-weight: 500;
+  }
+  .quoteHeading {
+    margin-top: 70px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: #24465f;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .quote {
+    margin-right: 100px;
+    text-align: center;
+    font-size: 45px;
+    color: #e77063;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: Allura;
+  }
+
+  /*------------------contact us----------------------------*/
+  .Spaghetti {
+    position: absolute;
+    left: -500px;
+    width: 900px;
+    margin-top: -50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+  #contact-form {
+    margin-top: 100px;
+  }
+
+  .contact-heading {
+    text-align: center;
+    color: #24465f !important;
+  }
+
+  .contact-subHeading {
+    text-align: center;
+    color: #24465f !important;
+  }
+
+  .contact-box {
+    background-color: white;
+    border-radius: 25px;
+    width: 75%;
+    margin: 0 12%;
+    -webkit-box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+  }
+
+  .form-control {
+    border-radius: 15px !important;
+    margin: 2% 0;
+    background-color: #e7e6e7;
+    border-width: 0;
+  }
+  .form-control:focus {
+    border-color: #24465f;
+    border-width: 1px;
+    box-shadow: none;
   }
 }
 
