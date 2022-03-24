@@ -13,3 +13,7 @@
 .followUs {
   margin-top: 50px;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}

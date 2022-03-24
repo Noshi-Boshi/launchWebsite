@@ -5,10 +5,12 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <span style={{ fontSize: "25px" }}>
-        <Link to="/" style={{ cursor: "pointer" }}>
+        <a href="/">
+          {" "}
           <span style={{ color: "#e77063", fontWeight: 300 }}>NOSHI</span>
           <span style={{ color: "#24465f", fontWeight: 700 }}>BOSHI</span>
-        </Link>
+        </a>
+
         <span style={{ color: "#24465f", fontWeight: 500, fontSize: "20px" }}>
           <Link to="recipes" spy={true} smooth={true} duration={500}>
             <span

@@ -33,9 +33,9 @@ const Footer = () => {
             <Col lg={4} style={{ textAlign: "right" }}>
               <h3>Policy</h3>
               <hr />
-              <Link to="/deliveryShipping">
+              <a href="/deliveryShipping">
                 <h5 className="nav-sub-item">Delivery and Shipping</h5>
-              </Link>
+              </a>
 
               <h5 className="nav-sub-item">Cancellation and Refund</h5>
               <h5 className="nav-sub-item">Terms of Service</h5>
