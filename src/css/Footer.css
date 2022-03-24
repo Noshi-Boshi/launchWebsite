@@ -1,0 +1,15 @@
+.Footer {
+  margin-top: 200px;
+  margin-bottom: 60px;
+  padding: 0 200px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.nav-sub-item {
+  line-height: 2;
+  font-weight: 300;
+}
+.followUs {
+  margin-top: 50px;
+}
