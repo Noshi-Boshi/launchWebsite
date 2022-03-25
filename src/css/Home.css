@@ -449,7 +449,7 @@ body {
     top: 700px;
     text-align: center;
     color: #24465f;
-    font-weight: 500;
+    font-weight: 700;
   }
   .instaImg {
     margin: 10px;
@@ -473,7 +473,7 @@ body {
     margin-top: 100px;
     line-height: 0.8;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 700;
     color: #24465f;
     font-family: "Poppins";
     visibility: hidden;
@@ -488,10 +488,12 @@ body {
     font-size: 25px;
     text-align: left;
     color: #24465f;
+    font-weight: 700;
   }
   .cuisine {
     margin-top: 40px;
     margin-left: 20px;
+    font-weight: 500;
   }
   .orderRecipes {
     margin-top: 20px;
@@ -529,7 +531,7 @@ body {
     font-size: 20px;
     text-align: left;
     color: #24465f;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.5;
   }
   .quoteHeading {

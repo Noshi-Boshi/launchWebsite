@@ -8,7 +8,7 @@ const Delivery = () => {
         <div className="delivery-header">
           <h2>Delivery and shipping</h2>
         </div>
-        <hr />
+        <hr className="delivery-hr" />
         <div className="delivery-content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           vel felis dui. Suspendisse orci tellus, pharetra quis sem eget,

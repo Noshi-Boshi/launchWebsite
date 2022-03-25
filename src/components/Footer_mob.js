@@ -7,13 +7,13 @@ import facebook from "../assets/facebook/facebook.png";
 import twitter from "../assets/twitter/twitter.png";
 import "../css/footer_mob.css";
 
-const Footer = () => {
+const FooterMob = () => {
   return (
     <div style={{ fontFamily: "Poppins" }}>
       <div className="container" style={{ marginTop: "10%" }}>
         <Row style={{ color: "#24465F" }}>
           <Col style={{ textAlign: "left", marginLeft: "5%" }}>
-            <h3 style={{ marginLeft: "0px" }}>Reach out to us</h3>
+            <h6 style={{ marginLeft: "0px" }}>Reach out to us</h6>
             <hr className="line" style={{ height: "3px", opacity: "100%" }} />
 
             <h5 className="nav-sub-item-mob">Phone : +91-9911314947</h5>
@@ -21,7 +21,7 @@ const Footer = () => {
             <h5 className="nav-sub-item-mob">223, GB Road, Delhi, India</h5>
           </Col>
           <Col style={{ textAlign: "right" }}>
-            <h3>Policy</h3>
+            <h6>Policy</h6>
             <hr className="line_2" style={{ height: "3px", opacity: "100%" }} />
             <a href="/deliveryShipping">
               <h5 className="nav-sub-item-mob">Delivery and Shipping</h5>
@@ -77,4 +77,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterMob;
