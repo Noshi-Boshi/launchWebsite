@@ -20,11 +20,11 @@ body {
     top: 0px;
   }
   .blueMockup {
-    width: 1060px;
+    width: 340px;
     z-index: 1;
     position: absolute;
-    top: 20px;
-    right: -190px;
+    top: 100px;
+    right: 220px;
   }
   .blueCoralLogo {
     width: 20px;
