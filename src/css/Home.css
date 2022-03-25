@@ -12,7 +12,7 @@ body {
   margin-left: 40px;
 }
 
-@media only screen and (min-device-width: 1110px) {
+@media only screen and (min-device-width: 1373px) {
   .malaiKofta {
     width: 460px;
     position: absolute;
@@ -52,6 +52,11 @@ body {
   .googlePlay {
     margin-left: 320px;
     margin-top: -100px;
+  }
+  .iosNewsletter {
+    margin-top: 20px;
+    color: #24465f;
+    font-weight: 500;
   }
   .instaImg {
     margin: 10px;
@@ -153,6 +158,199 @@ body {
     position: absolute;
     left: -500px;
     width: 900px;
+    margin-top: -50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+  #contact-form {
+    margin-top: 100px;
+  }
+
+  .contact-heading {
+    text-align: center;
+    color: #24465f !important;
+  }
+
+  .contact-subHeading {
+    text-align: center;
+    color: #24465f !important;
+  }
+
+  .contact-box {
+    background-color: white;
+    border-radius: 25px;
+    width: 75%;
+    margin: 0 12%;
+    -webkit-box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+  }
+
+  .form-control {
+    border-radius: 15px !important;
+    margin: 2% 0;
+    background-color: #e7e6e7;
+    border-width: 0;
+  }
+  .form-control:focus {
+    border-color: #24465f;
+    border-width: 1px;
+    box-shadow: none;
+  }
+}
+
+@media only screen and (min-device-width: 1100px) and (max-device-width: 1373px) {
+  .malaiKofta {
+    width: 380px;
+    position: absolute;
+    right: -1px;
+    top: 0px;
+  }
+  .blueMockup {
+    width: 260px;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+  }
+  .blueCoralLogo {
+    width: 15px;
+    z-index: 1;
+    position: absolute;
+    top: 435px;
+    right: 350px;
+  }
+
+  .orderNow {
+    position: absolute;
+    top: 390px;
+    right: 220px;
+    width: 150px;
+  }
+
+  .RaspberryRicotta {
+    width: 600px;
+    z-index: 1;
+    position: absolute;
+    top: 400px;
+    left: -400px;
+  }
+
+  .googlePlay {
+    margin-left: 320px;
+    margin-top: -100px;
+  }
+  .iosNewsletter {
+    margin-top: 20px;
+    margin-right: 400px;
+    color: #24465f;
+    font-weight: 500;
+  }
+  .instaImg {
+    margin: 10px;
+    width: 33px;
+  }
+  .blueCoralLogoWithName {
+    width: 100px;
+    position: absolute;
+    right: 45px;
+    top: 500px;
+  }
+
+  .selectMeal {
+    padding: 8%;
+    line-height: 0.8;
+    font-size: 30px;
+    color: #24465f;
+    font-family: "Poppins";
+    z-index: 1;
+  }
+  .instaSection {
+    margin-left: 200px;
+    margin-top: 100px;
+    line-height: 0.8;
+    font-size: 22px;
+    font-weight: 500;
+    color: #24465f;
+    font-family: "Poppins";
+    z-index: 1;
+  }
+
+  /*------------------recipe section----------------------------*/
+  .recipeHeading {
+    margin-top: 100px;
+    margin-left: 260px;
+  }
+  .cuisine {
+    margin-top: 40px;
+    margin-left: 250px;
+  }
+  .orderRecipes {
+    margin-top: 60px;
+    overflow-x: hidden;
+  }
+  .orderRecipes::-webkit-scrollbar {
+    display: none;
+  }
+  .orderRecipeNow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: -20px;
+  }
+
+  /*------------------about us----------------------------*/
+  .shamiKabab {
+    position: absolute;
+    right: -300px;
+    width: 700px;
+    margin-top: -50px;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+  }
+  .about {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .aboutPara {
+    margin: 40px 450px 0px 20px;
+    font-size: 25px;
+    text-align: left;
+    color: #24465f;
+    font-weight: 500;
+  }
+  .quoteHeading {
+    margin-top: 70px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: #24465f;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .quote {
+    margin-right: 100px;
+    text-align: center;
+    font-size: 45px;
+    color: #e77063;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: Allura;
+  }
+
+  /*------------------contact us----------------------------*/
+  .Spaghetti {
+    position: absolute;
+    left: -350px;
+    width: 700px;
     margin-top: -50px;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);

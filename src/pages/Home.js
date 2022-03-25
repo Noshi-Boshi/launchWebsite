@@ -57,7 +57,7 @@ const Home = () => {
         <img className="RaspberryRicotta" src={Raspberry} alt="" />
         <div className="googlePlay">
           <img width="200px" src={googlePLay} alt="" />
-          <p style={{ marginTop: "20px", color: "#24465f", fontWeight: "500" }}>
+          <p className="iosNewsletter">
             iOS user? Join our{" "}
             <span style={{ color: "#e77063" }}>newsletter</span> to be the first
             to know when iOS is released
