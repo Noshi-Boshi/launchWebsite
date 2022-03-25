@@ -6,10 +6,18 @@ import FooterMob from "./components/Footer_mob";
 import Delivery from "./pages/Delivery";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+import { Helmet } from "react-helmet";
+
 function App() {
   const { innerWidth: width, innerHeight: height } = window;
   return (
     <div className="App">
+      <Helmet>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        ></meta>
+      </Helmet>
       <Router>
         {width > 768 ? <Navbar /> : <NavbarMob />}
         <main>
