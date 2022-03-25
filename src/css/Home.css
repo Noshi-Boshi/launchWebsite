@@ -3,13 +3,12 @@ html,
 body {
   margin-top: 0px;
   padding: 0px;
-  overflow-x: hidden;
   scroll-behavior: smooth;
   font-family: "Poppins";
 }
 .Navbar {
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 @media only screen and (min-device-width: 1373px) {
@@ -54,7 +53,7 @@ body {
     margin-top: -100px;
   }
   .iosNewsletter {
-    margin-top: 20px;
+    margin-left: 320px;
     color: #24465f;
     font-weight: 500;
   }
@@ -419,7 +418,7 @@ body {
   }
   .blueMockup {
     width: 260px;
-    z-index: 1;
+
     position: absolute;
     top: 270px;
     right: 80px;
@@ -477,6 +476,7 @@ body {
     font-weight: 500;
     color: #24465f;
     font-family: "Poppins";
+    visibility: hidden;
     z-index: 1;
   }
 

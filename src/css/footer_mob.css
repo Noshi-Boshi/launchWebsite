@@ -1,0 +1,24 @@
+.line {
+  color: #dd584f;
+  width: 70%;
+  height: 5px;
+}
+.nav-sub-item-mob {
+  font-size: 0.5rem;
+  padding: 0px;
+}
+.line_2 {
+  color: #dd584f;
+  width: 70%;
+  height: 5px;
+  margin-left: 30%;
+}
+.follow {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #24465f;
+  margin-top: 10%;
+  font-size: 0.85rem;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}

@@ -22,6 +22,8 @@ import { GrMail } from "react-icons/gr";
 import { HiLocationMarker } from "react-icons/hi";
 
 const Home = () => {
+  const { innerWidth: width, innerHeight: height } = window;
+
   function onWheel(
     apiObj: scrollVisibilityApiType,
     ev: React.WheelEvent
