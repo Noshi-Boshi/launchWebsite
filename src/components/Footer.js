@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { Link as ScrollLink } from "react-scroll";
+import { useLocation } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 import "../css/Footer.css";
 import insta from "../assets/insta/drawable-xxxhdpi/Image 1.png";
@@ -8,6 +9,7 @@ import facebook from "../assets/facebook/facebook.png";
 import twitter from "../assets/twitter/twitter.png";
 
 const Footer = () => {
+  const location = useLocation();
   return (
     <div>
       <section className="Footer">
@@ -17,9 +19,54 @@ const Footer = () => {
               <h3 style={{ fontWeight: "500" }}>Quick Links</h3>
               <hr />
 
-              <h5 className="nav-sub-item">Home</h5>
-              <h5 className="nav-sub-item">Menu</h5>
-              <h5 className="nav-sub-item">What are we?</h5>
+              {location.pathname === "/" ? (
+                <ScrollLink
+                  to="landing"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  <h5 className="nav-sub-item">Home</h5>
+                </ScrollLink>
+              ) : (
+                <Link to="/">
+                  <h5 className="nav-sub-item">Home</h5>
+                </Link>
+              )}
+
+              {location.pathname === "/" ? (
+                <ScrollLink
+                  to="recipes"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  <h5 className="nav-sub-item">Menu</h5>
+                </ScrollLink>
+              ) : (
+                <Link to="/">
+                  <h5 className="nav-sub-item">Menu</h5>
+                </Link>
+              )}
+
+              {location.pathname === "/" ? (
+                <ScrollLink
+                  to="aboutUs"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  <h5 className="nav-sub-item">What are we?</h5>
+                </ScrollLink>
+              ) : (
+                <Link to="/">
+                  <h5 className="nav-sub-item">What are we?</h5>
+                </Link>
+              )}
+
               <h5 className="nav-sub-item ">FAQs</h5>
             </Col>
             <Col lg={4} style={{ textAlign: "center" }}>
@@ -33,9 +80,9 @@ const Footer = () => {
             <Col lg={4} style={{ textAlign: "right" }}>
               <h3>Policy</h3>
               <hr />
-              <a href="/deliveryShipping">
+              <Link to="/deliveryShipping">
                 <h5 className="nav-sub-item">Delivery and Shipping</h5>
-              </a>
+              </Link>
 
               <h5 className="nav-sub-item">Cancellation and Refund</h5>
               <h5 className="nav-sub-item">Terms of Service</h5>

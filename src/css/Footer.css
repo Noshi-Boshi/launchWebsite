@@ -9,6 +9,7 @@
 .nav-sub-item {
   line-height: 2;
   font-weight: 300;
+  cursor: pointer;
 }
 .followUs {
   margin-top: 50px;

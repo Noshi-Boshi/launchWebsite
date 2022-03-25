@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Link as LinkRouter } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="Navbar">
       <span style={{ fontSize: "25px" }}>
-        <a href="/">
+        <LinkRouter to="/">
           {" "}
           <span style={{ color: "#e77063", fontWeight: 300 }}>NOSHI</span>
           <span style={{ color: "#24465f", fontWeight: 700 }}>BOSHI</span>
-        </a>
+        </LinkRouter>
 
         <span style={{ color: "#24465f", fontWeight: 500, fontSize: "20px" }}>
           <Link to="recipes" spy={true} smooth={true} duration={500}>
