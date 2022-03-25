@@ -42,7 +42,7 @@ const Home = () => {
   return (
     <div>
       {" "}
-      <section className="landing">
+      <section className="landing" style={{ overflowX: "hidden" }}>
         <img className="malaiKofta" align="right" src={malaiKofta} alt="" />
         <img className="blueMockup" align="right" src={blueMockup} alt="" />
         <img className="blueCoralLogo" src={blueCoralLogo} alt="" />
