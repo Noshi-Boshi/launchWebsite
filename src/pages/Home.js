@@ -198,14 +198,14 @@ const Home = () => {
                   </div>
                 </Col>
                 <br />
-                <Col lg={7} style={{ padding: "2% 4%" }}>
+                <Col lg={7} style={{ padding: "4% 8%" }}>
                   <form
                     className="my-form"
                     action="mailto:hello@noshiboshi.com"
                     method="POST"
                   >
                     <Row>
-                      <Col lg={6} className="mobilePadding">
+                      <Col lg={6}>
                         <div className="form-group">
                           <label htmlFor="form-first-name">First Name</label>
                           <input
