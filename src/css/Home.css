@@ -201,6 +201,12 @@ body {
     border-width: 1px;
     box-shadow: none;
   }
+  .submit-button {
+    margin-left: 55%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: #24465f;
+  }
 }
 
 @media only screen and (min-device-width: 1100px) and (max-device-width: 1373px) {
@@ -393,6 +399,210 @@ body {
     border-color: #24465f;
     border-width: 1px;
     box-shadow: none;
+  }
+  .submit-button {
+    margin-left: 55%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: #24465f;
+  }
+}
+
+@media only screen and (min-device-width: 250px) and (max-device-width: 600px) {
+  .malaiKofta {
+    width: 270px;
+    position: absolute;
+    right: -10px;
+    top: 230px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  .blueMockup {
+    width: 260px;
+    z-index: 1;
+    position: absolute;
+    top: 270px;
+    right: 80px;
+  }
+  .blueCoralLogo {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .orderNow {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .RaspberryRicotta {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .googlePlay {
+    position: absolute;
+    width: 100px;
+    left: 170px;
+    top: 580px;
+  }
+  .iosNewsletter {
+    position: absolute;
+    top: 700px;
+    text-align: center;
+    color: #24465f;
+    font-weight: 500;
+  }
+  .instaImg {
+    margin: 10px;
+    width: 33px;
+  }
+  .blueCoralLogoWithName {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .selectMeal {
+    padding: 8%;
+    line-height: 0.8;
+    font-size: 30px;
+    color: #24465f;
+    font-family: "Poppins";
+    z-index: 1;
+  }
+  .instaSection {
+    margin-left: 200px;
+    margin-top: 100px;
+    line-height: 0.8;
+    font-size: 22px;
+    font-weight: 500;
+    color: #24465f;
+    font-family: "Poppins";
+    z-index: 1;
+  }
+
+  /*------------------recipe section----------------------------*/
+  .recipeHeading {
+    position: relative;
+    margin-top: 350px;
+    margin-left: 25px;
+    font-size: 25px;
+    text-align: left;
+    color: #24465f;
+  }
+  .cuisine {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .orderRecipes {
+    margin-top: 20px;
+    overflow-x: hidden;
+  }
+  .orderRecipes::-webkit-scrollbar {
+    display: none;
+  }
+  .orderRecipeNow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: -20px;
+  }
+
+  /*------------------about us----------------------------*/
+  .shamiKabab {
+    position: absolute;
+    right: -200px;
+    width: 300px;
+    margin-top: -100px;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+  }
+  .about {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+  .aboutPara {
+    margin: 45px 30px 0px 10px;
+    font-size: 20px;
+    text-align: left;
+    color: #24465f;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .quoteHeading {
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    text-align: left;
+    color: #24465f;
+    font-weight: 700;
+  }
+  .quote {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 45px;
+    color: #e77063;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: Allura;
+  }
+
+  /*------------------contact us----------------------------*/
+  .Spaghetti {
+    position: absolute;
+    visibility: hidden;
+  }
+  .hideMobile {
+    display: none;
+  }
+  .mobilePadding {
+    padding: 20px;
+  }
+
+  #contact-form {
+    margin-top: 100px;
+  }
+
+  .contact-heading {
+    text-align: center;
+    color: #24465f !important;
+  }
+
+  .contact-subHeading {
+    text-align: center;
+    color: #24465f !important;
+  }
+
+  .contact-box {
+    background-color: white;
+    border-radius: 25px;
+    width: 75%;
+    margin: 0 12%;
+    -webkit-box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+  }
+
+  .form-control {
+    border-radius: 10px !important;
+    margin: 2% 0;
+    background-color: #e7e6e7;
+    border-width: 0;
+  }
+  .form-control:focus {
+    border-color: #24465f;
+    border-width: 1px;
+    box-shadow: none;
+  }
+  .submit-button {
+    margin-top: 3%;
+    border-radius: 10px;
+    background-color: #24465f;
   }
 }
 

@@ -1,9 +1,14 @@
-.Footer {
-  margin-top: 200px;
-  margin-bottom: 60px;
-  padding: 0 200px;
-  text-align: center;
-  font-size: 14px;
+@media only screen and (min-device-width: 1100px) and (max-device-width: 1373px) {
+  .Footer {
+    margin-top: 200px;
+    margin-bottom: 60px;
+    padding: 0 200px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .reachOut {
+    text-align: center;
+  }
 }
 
 .nav-sub-item {
@@ -17,4 +22,16 @@
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media only screen and (min-device-width: 250px) and (max-device-width: 600px) {
+  .Footer {
+    margin-top: 200px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .reachOut {
+    text-align: left;
+  }
 }

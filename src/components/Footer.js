@@ -15,7 +15,7 @@ const Footer = () => {
       <section className="Footer">
         <div className="container">
           <Row style={{ color: "#24465F" }}>
-            <Col lg={4} style={{ textAlign: "left" }}>
+            <Col lg={4} style={{ textAlign: "left" }} className="hideMobile">
               <h3 style={{ fontWeight: "500" }}>Quick Links</h3>
               <hr />
 
@@ -69,7 +69,7 @@ const Footer = () => {
 
               <h5 className="nav-sub-item ">FAQs</h5>
             </Col>
-            <Col lg={4} style={{ textAlign: "center" }}>
+            <Col className="reachOut" lg={4} sm={6} xs={6}>
               <h3>Reach out to us</h3>
               <hr />
 
@@ -77,7 +77,7 @@ const Footer = () => {
               <h5 className="nav-sub-item">Email : hello@noshiboshi.com</h5>
               <h5 className="nav-sub-item">223, GB Road, Delhi, India</h5>
             </Col>
-            <Col lg={4} style={{ textAlign: "right" }}>
+            <Col lg={4} sm={6} xs={6} style={{ textAlign: "right" }}>
               <h3>Policy</h3>
               <hr />
               <Link to="/deliveryShipping">
