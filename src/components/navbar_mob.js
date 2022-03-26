@@ -1,7 +1,8 @@
 import { Button } from "react-bootstrap";
 import "../css/mob_nav.css";
 import logo from "../assets/Blue coral log/drawable-xxxhdpi/Blue coral log.png";
-
+import { Link } from "react-router-dom";
+import { ScrollLink } from "react-scroll";
 const Navbar = () => {
   function openNav() {
     document.getElementById("mySidepanel").style.width = "250px";
@@ -15,14 +16,16 @@ const Navbar = () => {
     <div>
       <div id="mySidepanel" className="sidepanel">
         <a className="closebtn" onClick={closeNav}>
-          <span className="brand-name">
-            <span style={{ color: "#e77063", fontWeight: 200 }}>Noshi</span>
-            <b>Boshi</b>
-          </span>
+          <Link to="/">
+            <span className="brand-name">
+              <span style={{ color: "#e77063", fontWeight: 200 }}>Noshi</span>
+              <b>Boshi</b>
+            </span>
+          </Link>
           <span className="cross">X</span>
         </a>
         <a
-          href="#"
+          href="contactUs"
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',
@@ -48,7 +51,7 @@ const Navbar = () => {
           About Us
         </a>
         <a
-          href="#"
+          href="contactUs"
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',
@@ -72,7 +75,9 @@ const Navbar = () => {
       <Button className="openbtn" onClick={openNav}>
         ☰
       </Button>
-      <img className="logo" src={logo} alt="logo" />
+      <Link to="/">
+        <img className="logo" src={logo} alt="logo" />
+      </Link>
     </div>
   );
 };

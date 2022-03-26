@@ -1,18 +1,62 @@
-.delivery-hr {
-  border: 1px solid #24465f;
-  background-color: #24465f !important;
-  opacity: 1;
+@media only screen and (min-device-width: 1373px) {
+  .delivery-hr {
+    border: 1px solid #24465f;
+    background-color: #24465f !important;
+    opacity: 1;
+  }
+
+  .delivery-section {
+    margin: 70px 130px 0px 100px;
+  }
+  .delivery-content {
+    line-height: 1.5;
+    color: #24465f;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  .delivery-header {
+    color: #e77063 !important;
+  }
 }
 
-.delivery-section {
-  margin: 70px 130px 0px 100px;
+@media only screen and (min-device-width: 1100px) and (max-device-width: 1373px) {
+  .delivery-hr {
+    border: 1px solid #24465f;
+    background-color: #24465f !important;
+    opacity: 1;
+  }
+
+  .delivery-section {
+    margin: 30px 40px 0px 40px;
+  }
+  .delivery-content {
+    line-height: 1.5;
+    color: #24465f;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  .delivery-header {
+    color: #e77063 !important;
+  }
 }
-.delivery-content {
-  line-height: 1.5;
-  color: #24465f;
-  font-weight: 500;
-  margin-top: 30px;
-}
-.delivery-header {
-  color: #e77063 !important;
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 1100px) {
+  .delivery-hr {
+    border: 1px solid #24465f;
+    background-color: #24465f !important;
+    opacity: 1;
+  }
+
+  .delivery-section {
+    margin: 30px 40px 0px 40px;
+  }
+  .delivery-content {
+    line-height: 1.5;
+    color: #24465f;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  .delivery-header {
+    color: #e77063 !important;
+  }
 }

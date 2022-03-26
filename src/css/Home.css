@@ -78,7 +78,7 @@ body {
   }
   .instaSection {
     margin-left: 450px;
-    margin-top: 170px;
+    margin-top: 130px;
     line-height: 0.8;
     font-size: 22px;
     font-weight: 500;
@@ -89,6 +89,8 @@ body {
 
   /*------------------recipe section----------------------------*/
   .recipeHeading {
+    color: #24465f;
+    font-weight: 700;
     margin-top: 100px;
     margin-left: 260px;
   }
@@ -208,7 +210,7 @@ body {
   }
 }
 
-@media only screen and (min-device-width: 1100px) and (max-device-width: 1373px) {
+@media only screen and (min-device-width: 850px) and (max-device-width: 1373px) {
   .malaiKofta {
     width: 380px;
     position: absolute;
@@ -250,8 +252,8 @@ body {
     margin-top: -100px;
   }
   .iosNewsletter {
-    margin-top: 20px;
-    margin-right: 400px;
+    margin-left: 150px;
+
     color: #24465f;
     font-weight: 500;
   }
@@ -275,7 +277,7 @@ body {
     z-index: 1;
   }
   .instaSection {
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 100px;
     line-height: 0.8;
     font-size: 22px;
@@ -406,8 +408,205 @@ body {
     background-color: #24465f;
   }
 }
+@media only screen and (min-device-width: 765px) and (max-device-width: 850px) {
+  .malaiKofta {
+    width: 270px;
+    position: absolute;
+    right: -10px;
+    top: 230px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  .blueMockup {
+    width: 260px;
+    position: absolute;
+    top: 270px;
+    right: 80px;
+  }
+  .blueCoralLogo {
+    position: absolute;
+    visibility: hidden;
+  }
 
-@media only screen and (min-device-width: 250px) and (max-device-width: 600px) {
+  .orderNow {
+    position: absolute;
+    top: 550px;
+    right: 80px;
+    width: 180px;
+  }
+
+  .RaspberryRicotta {
+    width: 550px;
+    z-index: 1;
+    position: absolute;
+    top: 400px;
+    left: -400px;
+  }
+
+  .googlePlay {
+    position: absolute;
+    width: 180px;
+    left: 170px;
+    top: 350px;
+  }
+  .iosNewsletter {
+    margin-top: 80px;
+    margin-right: 200px;
+    padding: 0 100px;
+    text-align: center;
+    color: #24465f;
+    font-weight: 700;
+  }
+  .instaImg {
+    margin: 10px;
+    width: 33px;
+  }
+  .blueCoralLogoWithName {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .selectMeal {
+    padding: 8%;
+    line-height: 0.8;
+    font-size: 30px;
+    color: #24465f;
+    font-family: "Poppins";
+    z-index: 1;
+  }
+  .instaSection {
+    visibility: hidden;
+  }
+
+  /*------------------recipe section----------------------------*/
+  .recipeHeading {
+    position: relative;
+    margin-top: 250px;
+    margin-left: 140px;
+    font-size: 25px;
+    text-align: left;
+    color: #24465f;
+    font-weight: 700;
+  }
+  .cuisine {
+    margin-top: 40px;
+    margin-left: 140px;
+    font-weight: 500;
+  }
+  .orderRecipes {
+    margin-top: 20px;
+    overflow-x: hidden;
+  }
+  .orderRecipes::-webkit-scrollbar {
+    display: none;
+  }
+  .orderRecipeNow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: -20px;
+  }
+
+  /*------------------about us----------------------------*/
+  .shamiKabab {
+    position: absolute;
+    right: -250px;
+    width: 500px;
+    margin-top: -50px;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+  }
+  .about {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+  .aboutPara {
+    margin: 45px 250px 0px 10px;
+    font-size: 20px;
+    text-align: left;
+    color: #24465f;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .quoteHeading {
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    text-align: left;
+    color: #24465f;
+    font-weight: 700;
+  }
+  .quote {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 45px;
+    color: #e77063;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: Allura;
+  }
+
+  /*------------------contact us----------------------------*/
+  .Spaghetti {
+    position: absolute;
+    visibility: hidden;
+  }
+  .hideMobile {
+    display: none;
+  }
+  .mobilePadding {
+    padding: 20px;
+  }
+
+  #contact-form {
+    margin-top: 100px;
+  }
+
+  .contact-heading {
+    text-align: center;
+    color: #24465f !important;
+  }
+
+  .contact-subHeading {
+    text-align: center;
+    color: #24465f !important;
+  }
+
+  .contact-box {
+    background-color: white;
+    border-radius: 25px;
+    width: 75%;
+    margin: 0 12%;
+    -webkit-box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
+  }
+
+  .form-control {
+    border-radius: 10px !important;
+    margin: 2% 0;
+    background-color: #e7e6e7;
+    border-width: 0;
+  }
+  .form-control:focus {
+    border-color: #24465f;
+    border-width: 1px;
+    box-shadow: none;
+  }
+  .submit-button {
+    margin-top: 3%;
+    border-radius: 10px;
+    background-color: #24465f;
+  }
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 765px) {
   .malaiKofta {
     width: 270px;
     position: absolute;
@@ -524,7 +723,7 @@ body {
   }
   .about {
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .aboutPara {
     margin: 45px 30px 0px 10px;

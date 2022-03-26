@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Delivery.css";
-import blueCoralLogoWithName from "../assets/Blue coral logo with name/drawable-xxxhdpi/Blue coral logo with name.png";
+
 const Delivery = () => {
   return (
     <div>
@@ -56,13 +56,6 @@ const Delivery = () => {
           vel, hendrerit porta ante. Quisque in interdum nulla.
         </div>
       </div>
-      <img
-        style={{ margin: "2%" }}
-        align="right"
-        width="100px"
-        src={blueCoralLogoWithName}
-        alt=""
-      />
     </div>
   );
 };

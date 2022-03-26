@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { Row, Col } from "react-bootstrap";
 import insta from "../assets/insta/drawable-xxxhdpi/Image 1.png";
@@ -20,12 +20,12 @@ const FooterMob = () => {
             <h5 className="nav-sub-item-mob">Email : hello@noshiboshi.com</h5>
             <h5 className="nav-sub-item-mob">223, GB Road, Delhi, India</h5>
           </Col>
-          <Col style={{ textAlign: "right" }}>
+          <Col style={{ textAlign: "right", marginRight: "5%" }}>
             <h6>Policy</h6>
             <hr className="line_2" style={{ height: "3px", opacity: "100%" }} />
-            <a href="/deliveryShipping">
+            <Link to="/deliveryShipping">
               <h5 className="nav-sub-item-mob">Delivery and Shipping</h5>
-            </a>
+            </Link>
 
             <h5 className="nav-sub-item-mob">Cancellation and Refund</h5>
             <h5 className="nav-sub-item-mob">Terms of Service</h5>

@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/deliveryShipping" element={<Delivery />} />
           </Routes>
         </main>
-        {width > 768 ? <Footer /> : <FooterMob />}
+        {width > 765 ? <Footer /> : <FooterMob />}
       </Router>
     </div>
   );

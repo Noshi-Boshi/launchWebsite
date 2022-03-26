@@ -15,7 +15,7 @@ const Footer = () => {
       <section className="Footer">
         <div className="container">
           <Row style={{ color: "#24465F" }}>
-            <Col lg={4} style={{ textAlign: "left" }} className="hideMobile">
+            <Col lg={4} sm={4} xs={4} style={{ textAlign: "left" }}>
               <h3 style={{ fontWeight: "500" }}>Quick Links</h3>
               <hr />
 
@@ -40,7 +40,7 @@ const Footer = () => {
                   to="recipes"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-10}
                   duration={500}
                 >
                   <h5 className="nav-sub-item">Menu</h5>
@@ -56,28 +56,30 @@ const Footer = () => {
                   to="aboutUs"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-130}
                   duration={500}
                 >
-                  <h5 className="nav-sub-item">What are we?</h5>
+                  <h5 className="nav-sub-item">About us</h5>
                 </ScrollLink>
               ) : (
                 <Link to="/">
-                  <h5 className="nav-sub-item">What are we?</h5>
+                  <h5 className="nav-sub-item">About us</h5>
                 </Link>
               )}
 
               <h5 className="nav-sub-item ">FAQs</h5>
             </Col>
-            <Col className="reachOut" lg={4} sm={6} xs={6}>
+            <Col className="reachOut" lg={4} sm={4} xs={4}>
               <h3>Reach out to us</h3>
               <hr />
 
-              <h5 className="nav-sub-item">Phone : +91-9911314947</h5>
-              <h5 className="nav-sub-item">Email : hello@noshiboshi.com</h5>
-              <h5 className="nav-sub-item">223, GB Road, Delhi, India</h5>
+              <h5 className="nav-sub-item">Phone : +91-8882355956</h5>
+              <h5 className="nav-sub-item">Email : support@noshiboshi.com</h5>
+              <h5 className="nav-sub-item">
+                BF-4, Basement, Janakpuri - 110058
+              </h5>
             </Col>
-            <Col lg={4} sm={6} xs={6} style={{ textAlign: "right" }}>
+            <Col lg={4} sm={4} xs={4} style={{ textAlign: "right" }}>
               <h3>Policy</h3>
               <hr />
               <Link to="/deliveryShipping">

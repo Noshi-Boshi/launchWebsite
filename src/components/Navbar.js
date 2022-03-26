@@ -30,7 +30,7 @@ const Navbar = () => {
             to="aboutUs"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-120}
             duration={500}
           >
             <span

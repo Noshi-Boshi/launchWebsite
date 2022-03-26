@@ -56,11 +56,14 @@ const Home = () => {
         </div>
         <img className="RaspberryRicotta" src={Raspberry} alt="" />
 
-        <img className="googlePlay" width="200px" src={googlePLay} alt="" />
+        <a href="https://play.google.com/store/apps/details?id=com.noshiboshi.noshiboshi">
+          <img className="googlePlay" width="200px" src={googlePLay} alt="" />
+        </a>
+
         <p className="iosNewsletter">
-          iOS user? Join our{" "}
-          <span style={{ color: "#e77063" }}>newsletter</span> to be the first
-          to know when iOS is released
+          Releasing soon on iOS. Join our
+          <span style={{ color: "#e77063" }}> mailing</span> list for further
+          updates.
         </p>
 
         <a
@@ -85,7 +88,8 @@ const Home = () => {
       <section className="recipes">
         <h1 className="recipeHeading">
           Choose from one of our{" "}
-          <span style={{ color: "#e77063" }}>hand-curated </span>recipes
+          <span style={{ color: "#e77063" }}>curated recipes </span> to cook at
+          home
         </h1>
 
         <div className="recipeHeader"></div>
@@ -133,7 +137,9 @@ const Home = () => {
       <img className="shamiKabab" src={shamiKabab} alt="" />
       <section className="aboutUs">
         <div className="about">
-          <h1 style={{ color: "#e77063" }}>What are we?</h1>
+          <h1 style={{ color: "#e77063", fontWeight: 700 }}>
+            What is Noshi Boshi ?
+          </h1>
           <div className="aboutPara">
             <span style={{ color: "#e77063" }}>Noshi Boshi</span> is a select
             meal-kit delivery service that caters to food enthusiasts, budding
@@ -153,12 +159,12 @@ const Home = () => {
             <div id="contact-us">
               <h2 className="contact-heading">Contact Us</h2>
               <p className="contact-subHeading">
-                Any questions or remarks? Just write us a message!
+                Any questions or remarks? Write to us by filling this form.
               </p>
             </div>
             <br />
             <div className="contact-box">
-              <Row style={{ padding: "2%" }}>
+              <Row>
                 <Col
                   lg={5}
                   style={{ backgroundColor: "#e77063", borderRadius: "25px" }}
@@ -171,7 +177,7 @@ const Home = () => {
                     <h4>Contact Information</h4>
                     <p style={{ fontWeight: 300 }}>
                       Please fill the form and our Team will get back to you
-                      within 24 hours
+                      soon
                     </p>
                     <div
                       style={{
@@ -182,15 +188,15 @@ const Home = () => {
                     >
                       <p style={{ marginBottom: "30px" }}>
                         <BsFillTelephoneFill style={{ marginRight: "30px" }} />
-                        +91-9911314947
+                        +91-8882355956
                       </p>
                       <p style={{ marginBottom: "30px" }}>
                         <GrMail style={{ marginRight: "30px" }} />
-                        hello@noshiboshi.com
+                        support@noshiboshi.com
                       </p>
                       <p>
                         <HiLocationMarker style={{ marginRight: "30px" }} />
-                        223,GB Road,Delhi,India
+                        BF-4, Basement, Janakpuri - 110058
                       </p>
                     </div>
                   </div>
@@ -245,9 +251,7 @@ const Home = () => {
                       </Col>
                       <Col lg={6}>
                         <div className="form-group">
-                          <label htmlFor="form-subject">
-                            Phone No.(10 Digit)
-                          </label>
+                          <label htmlFor="form-subject">Phone No.</label>
                           <input
                             type="tel"
                             name="num"
