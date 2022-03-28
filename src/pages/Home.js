@@ -1,4 +1,5 @@
 import React from "react";
+
 import "../css/Home.css";
 import ProductCard from "../components/ProductCard";
 import malaiKofta from "../assets/Malai kofta/drawable-xxxhdpi/Malai kofta.png";
@@ -39,6 +40,7 @@ const Home = () => {
       apiObj.scrollPrev();
     }
   }
+
   return (
     <div>
       {" "}
@@ -94,11 +96,14 @@ const Home = () => {
 
         <div className="recipeHeader"></div>
         <Row
-          className="cuisine"
-          style={{ color: "#24465f", fontWeight: 500, fontSize: "20px" }}
+          className="justify-content-md-center cuisine"
+          style={{
+            color: "#24465f",
+            fontWeight: 500,
+            fontSize: "20px",
+          }}
         >
           <Col lg={2} sm={4} xs={4}>
-            {" "}
             Continental
           </Col>
           <Col lg={2} sm={4} xs={4}>
@@ -223,7 +228,6 @@ const Home = () => {
                             required
                           />
                         </div>
-                        <br />
                       </Col>
                       <Col lg={6}>
                         <div className="form-group">
@@ -236,7 +240,6 @@ const Home = () => {
                             required
                           />
                         </div>
-                        <br />
                       </Col>
                     </Row>
                     <Row>

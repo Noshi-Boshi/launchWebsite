@@ -50,10 +50,9 @@ const FooterMob = () => {
             style={{ width: "10%", marginLeft: "5%" }}
           ></img>
         </div>
-        <div style={{ marginBottom: "10%" }}>
+        <div style={{ textAlign: "center" }}>
           <span
             style={{
-              marginLeft: "50px",
               fontWeight: "500",
               color: "#24465F",
             }}
@@ -63,7 +62,7 @@ const FooterMob = () => {
           </span>
           <span
             style={{
-              marginLeft: "50px",
+              marginLeft: "15px",
               fontWeight: "500",
               color: "#DD584F",
             }}

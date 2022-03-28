@@ -690,6 +690,7 @@ body {
   }
   .orderRecipes {
     margin-top: 20px;
+    padding: 0 15px;
     overflow-x: hidden;
   }
   .orderRecipes::-webkit-scrollbar {
@@ -699,8 +700,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    margin-top: -20px;
+    width: 300px;
+    margin-top: -10px;
   }
 
   /*------------------about us----------------------------*/

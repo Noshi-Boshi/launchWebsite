@@ -12,7 +12,7 @@ const Product = ({ product }) => {
         width: "235px",
         borderRadius: "25px",
         display: "inline-block",
-        margin: "30px",
+        margin: "15px ",
         border: "0px",
       }}
     >
