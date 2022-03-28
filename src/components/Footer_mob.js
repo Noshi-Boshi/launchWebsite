@@ -9,7 +9,7 @@ import "../css/footer_mob.css";
 
 const FooterMob = () => {
   return (
-    <div style={{ fontFamily: "Poppins" }}>
+    <div style={{ fontFamily: "Poppins", marginBottom: "50px" }}>
       <div className="container" style={{ marginTop: "10%" }}>
         <Row style={{ color: "#24465F" }}>
           <Col style={{ textAlign: "left", marginLeft: "5%" }}>

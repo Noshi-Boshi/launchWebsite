@@ -424,7 +424,7 @@
   }
   .blueCoralLogo {
     position: absolute;
-    visibility: hidden;
+    display: none;
   }
 
   .orderNow {
@@ -462,7 +462,7 @@
   }
   .blueCoralLogoWithName {
     position: absolute;
-    visibility: hidden;
+    display: none;
   }
 
   .selectMeal {
@@ -474,7 +474,7 @@
     z-index: 1;
   }
   .instaSection {
-    visibility: hidden;
+    display: none;
   }
 
   /*------------------recipe section----------------------------*/
@@ -554,7 +554,7 @@
   /*------------------contact us----------------------------*/
   .Spaghetti {
     position: absolute;
-    visibility: hidden;
+    display: none;
   }
   .hideMobile {
     display: none;
@@ -620,7 +620,7 @@
   }
   .blueCoralLogo {
     position: absolute;
-    visibility: hidden;
+    display: none;
   }
 
   .orderNow {
@@ -748,7 +748,7 @@
   /*------------------contact us----------------------------*/
   .Spaghetti {
     position: absolute;
-    visibility: hidden;
+    display: none;
   }
   .hideMobile {
     display: none;
