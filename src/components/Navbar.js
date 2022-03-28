@@ -17,7 +17,7 @@ const Navbar = () => {
         </LinkRouter>
 
         <span style={{ color: "#24465f", fontWeight: 500, fontSize: "20px" }}>
-          <a href="#recipes">
+          <a href="/#recipes">
             <span
               className="nav-item"
               style={{
@@ -30,7 +30,7 @@ const Navbar = () => {
             </span>
           </a>
 
-          <a href="#aboutUs">
+          <a href="/#aboutUs">
             <span
               className="nav-item"
               style={{
@@ -43,7 +43,7 @@ const Navbar = () => {
             </span>
           </a>
 
-          <a href="#contactUs">
+          <a href="/#contactUs">
             <span
               className="nav-item"
               style={{
