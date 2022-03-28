@@ -101,6 +101,7 @@ body {
   }
   .orderRecipes {
     margin-top: 100px;
+    padding: 0 30px;
     overflow-x: hidden;
   }
   .orderRecipes::-webkit-scrollbar {
@@ -611,19 +612,17 @@ body {
 }
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 765px) {
-  .malaiKofta {
-    width: 270px;
+  .malaiKoftaMobile {
+    width: 350px;
     position: absolute;
-    right: -10px;
+    right: -40px;
     top: 230px;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
   }
   .blueMockup {
     width: 260px;
     position: absolute;
     top: 270px;
-    right: 80px;
+    right: 85px;
   }
   .blueCoralLogo {
     position: absolute;
@@ -641,7 +640,7 @@ body {
   .googlePlay {
     position: absolute;
     width: 100px;
-    right: 125px;
+    right: 130px;
     top: 580px;
   }
   .iosNewsletter {

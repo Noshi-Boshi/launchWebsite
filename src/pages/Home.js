@@ -3,6 +3,7 @@ import React from "react";
 import "../css/Home.css";
 import ProductCard from "../components/ProductCard";
 import malaiKofta from "../assets/Malai kofta/drawable-xxxhdpi/Malai kofta.png";
+import malaiKoftaMobile from "../assets/Malai kofta/drawable-xxxhdpi/Malai kofta Mobile.png";
 import blueMockup from "../assets/Blue Mockup of Death2/drawable-xxxhdpi/Blue Mockup of Death2.png";
 import blueCoralLogo from "../assets/Blue coral log/drawable-xxxhdpi/Blue coral log.png";
 import blueCoralLogoWithName from "../assets/Blue coral logo with name/drawable-xxxhdpi/Blue coral logo with name.png";
@@ -40,12 +41,23 @@ const Home = () => {
       apiObj.scrollPrev();
     }
   }
+  const { innerWidth: width, innerHeight: height } = window;
 
   return (
     <div>
       {" "}
       <section className="landing" style={{ overflowX: "hidden" }}>
-        <img className="malaiKofta" align="right" src={malaiKofta} alt="" />
+        {width > 768 ? (
+          <img className="malaiKofta" align="right" src={malaiKofta} alt="" />
+        ) : (
+          <img
+            className="malaiKoftaMobile"
+            align="right"
+            src={malaiKoftaMobile}
+            alt=""
+          />
+        )}
+
         <img className="blueMockup" align="right" src={blueMockup} alt="" />
         <img className="blueCoralLogo" src={blueCoralLogo} alt="" />
         <img className="orderNow" src={orderNow} alt="" />
@@ -94,13 +106,13 @@ const Home = () => {
           home
         </h1>
 
-        <div className="recipeHeader"></div>
         <Row
-          className="justify-content-md-center cuisine"
+          className=" cuisine"
           style={{
             color: "#24465f",
             fontWeight: 500,
             fontSize: "20px",
+            textAlign: "center",
           }}
         >
           <Col lg={2} sm={4} xs={4}>

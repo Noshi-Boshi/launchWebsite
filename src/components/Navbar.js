@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import { Link as LinkRouter } from "react-router-dom";
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
         </LinkRouter>
 
         <span style={{ color: "#24465f", fontWeight: 500, fontSize: "20px" }}>
-          <Link to="recipes" spy={true} smooth={true} duration={500}>
+          <ScrollLink to="recipes" spy={true} smooth={true} duration={500}>
             <span
               className="nav-item"
               style={{
@@ -28,9 +28,9 @@ const Navbar = () => {
             >
               Menu
             </span>
-          </Link>
+          </ScrollLink>
 
-          <Link
+          <ScrollLink
             to="aboutUs"
             spy={true}
             smooth={true}
@@ -47,9 +47,9 @@ const Navbar = () => {
             >
               About us
             </span>
-          </Link>
+          </ScrollLink>
 
-          <Link
+          <ScrollLink
             to="contactUs"
             spy={true}
             offset={-100}
@@ -66,7 +66,7 @@ const Navbar = () => {
             >
               Contact us
             </span>
-          </Link>
+          </ScrollLink>
         </span>
       </span>
     </div>
