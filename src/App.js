@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   const { innerWidth: width, innerHeight: height } = window;
   return (
-    <div className="App" style={{ overflowX: "hidden" }}>
+    <div className="App">
       <Router>
         {width > 768 ? <Navbar /> : <NavbarMob />}
         <main>
