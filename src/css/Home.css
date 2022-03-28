@@ -4,6 +4,10 @@
   margin-top: 20px;
   margin-left: 60px;
 }
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
 
 @media only screen and (min-device-width: 1373px) {
   .malaiKofta {

@@ -17,7 +17,7 @@ const Navbar = () => {
         </LinkRouter>
 
         <span style={{ color: "#24465f", fontWeight: 500, fontSize: "20px" }}>
-          <ScrollLink to="recipes" spy={true} smooth={true} duration={500}>
+          <a href="#recipes">
             <span
               className="nav-item"
               style={{
@@ -28,15 +28,9 @@ const Navbar = () => {
             >
               Menu
             </span>
-          </ScrollLink>
+          </a>
 
-          <ScrollLink
-            to="aboutUs"
-            spy={true}
-            smooth={true}
-            offset={-120}
-            duration={500}
-          >
+          <a href="#aboutUs">
             <span
               className="nav-item"
               style={{
@@ -47,15 +41,9 @@ const Navbar = () => {
             >
               About us
             </span>
-          </ScrollLink>
+          </a>
 
-          <ScrollLink
-            to="contactUs"
-            spy={true}
-            offset={-100}
-            smooth={true}
-            duration={500}
-          >
+          <a href="#contactUs">
             <span
               className="nav-item"
               style={{
@@ -66,7 +54,7 @@ const Navbar = () => {
             >
               Contact us
             </span>
-          </ScrollLink>
+          </a>
         </span>
       </span>
     </div>

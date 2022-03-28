@@ -99,7 +99,7 @@ const Home = () => {
           alt=""
         />
       </section>
-      <section className="recipes">
+      <section id="recipes">
         <h1 className="recipeHeading">
           Choose from one of our{" "}
           <span style={{ color: "#e77063" }}>curated recipes </span> to cook at
@@ -152,7 +152,7 @@ const Home = () => {
         <img className="orderRecipeNow" src={orderNow} alt="" />
       </section>
       <img className="shamiKabab" src={shamiKabab} alt="" />
-      <section className="aboutUs">
+      <section id="aboutUs">
         <div className="about">
           <h1
             className="aboutHead"
@@ -173,7 +173,7 @@ const Home = () => {
         <div className="quote">Your personal sous chef!</div>
       </section>
       <img className="Spaghetti" src={Spaghetti} alt="" />
-      <section className="contactUs" style={{ zIndex: "1" }}>
+      <section id="contactUs" style={{ zIndex: "1" }}>
         <div id="contact-form">
           <div className="container">
             <div id="contact-us">
