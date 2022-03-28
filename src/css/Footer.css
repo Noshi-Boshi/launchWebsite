@@ -13,7 +13,10 @@ a {
   .reachOut {
     text-align: center;
   }
-
+  .footerHr {
+    color: #dd584f;
+    height: 5px;
+  }
   .nav-sub-item {
     line-height: 2;
     font-weight: 300;
@@ -34,6 +37,10 @@ a {
   }
   .reachOut {
     text-align: center;
+  }
+  .footerHr {
+    color: #dd584f;
+    height: 5px;
   }
 
   .nav-sub-item {

@@ -17,7 +17,10 @@ const Footer = () => {
           <Row style={{ color: "#24465F" }}>
             <Col lg={4} sm={4} xs={4} style={{ textAlign: "left" }}>
               <h3 style={{ fontWeight: "500" }}>Quick Links</h3>
-              <hr />
+              <hr
+                className="footerHr"
+                style={{ height: "3px", opacity: "100%" }}
+              />
 
               {location.pathname === "/" ? (
                 <ScrollLink
@@ -71,7 +74,10 @@ const Footer = () => {
             </Col>
             <Col className="reachOut" lg={4} sm={4} xs={4}>
               <h3>Reach out to us</h3>
-              <hr />
+              <hr
+                className="footerHr"
+                style={{ height: "3px", opacity: "100%" }}
+              />
 
               <h5 className="nav-sub-item">Phone : +91-8882355956</h5>
               <h5 className="nav-sub-item">Email : support@noshiboshi.com</h5>
@@ -81,7 +87,10 @@ const Footer = () => {
             </Col>
             <Col lg={4} sm={4} xs={4} style={{ textAlign: "right" }}>
               <h3>Policy</h3>
-              <hr />
+              <hr
+                className="footerHr"
+                style={{ height: "3px", opacity: "100%" }}
+              />
               <Link to="/deliveryShipping">
                 <h5 className="nav-sub-item">Delivery and Shipping</h5>
               </Link>
@@ -93,13 +102,15 @@ const Footer = () => {
           </Row>
           <div className="followUs">
             <span style={{ fontSize: "25px" }}>
-              <span style={{ color: "#e77063", fontWeight: 300 }}>NOSHI</span>
-              <span style={{ color: "#24465f", fontWeight: 700 }}>BOSHI</span>
+              <span style={{ color: "#e77063", fontWeight: 500 }}>NOSHI</span>{" "}
+              <b>
+                <span style={{ color: "#24465f", fontWeight: 700 }}>BOSHI</span>
+              </b>
             </span>
             <span
               style={{
                 marginLeft: "50px",
-                fontWeight: "500",
+                fontWeight: "700",
                 color: "#24465F",
               }}
             >

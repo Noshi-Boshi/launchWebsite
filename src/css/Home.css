@@ -49,11 +49,12 @@ body {
   }
 
   .googlePlay {
-    margin-left: 320px;
+    width: 200px;
+    margin-left: 230px !important;
     margin-top: -100px;
   }
   .iosNewsletter {
-    margin-left: 320px;
+    margin-left: 240px;
     color: #24465f;
     font-weight: 500;
   }
@@ -127,6 +128,9 @@ body {
   .about {
     margin-top: 170px;
     margin-left: 100px;
+  }
+  .aboutHead {
+    font-weight: 500 !important;
   }
   .aboutPara {
     margin: 40px 780px 0px 20px;
@@ -637,7 +641,7 @@ body {
   .googlePlay {
     position: absolute;
     width: 100px;
-    left: 170px;
+    right: 125px;
     top: 580px;
   }
   .iosNewsletter {

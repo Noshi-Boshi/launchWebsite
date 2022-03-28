@@ -8,8 +8,12 @@ const Navbar = () => {
       <span style={{ fontSize: "25px" }}>
         <LinkRouter to="/">
           {" "}
-          <span style={{ color: "#e77063", fontWeight: 300 }}>NOSHI</span>
-          <span style={{ color: "#24465f", fontWeight: 700 }}>BOSHI</span>
+          <span style={{ fontSize: "25px" }}>
+            <span style={{ color: "#e77063", fontWeight: 500 }}>NOSHI</span>{" "}
+            <b>
+              <span style={{ color: "#24465f", fontWeight: 700 }}>BOSHI</span>
+            </b>
+          </span>
         </LinkRouter>
 
         <span style={{ color: "#24465f", fontWeight: 500, fontSize: "20px" }}>

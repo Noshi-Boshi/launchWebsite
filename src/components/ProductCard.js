@@ -13,6 +13,7 @@ const Product = ({ product }) => {
         borderRadius: "25px",
         display: "inline-block",
         margin: "30px",
+        border: "0px",
       }}
     >
       <Card.Img

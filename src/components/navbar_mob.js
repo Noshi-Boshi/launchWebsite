@@ -17,8 +17,12 @@ const Navbar = () => {
       <div id="mySidepanel" className="sidepanel">
         <a className="closebtn" onClick={closeNav}>
           <span className="brand-name">
-            <span style={{ color: "#e77063", fontWeight: 200 }}>Noshi</span>
-            <b>Boshi</b>
+            <span style={{ fontSize: "20px" }}>
+              <span style={{ color: "#e77063", fontWeight: 300 }}>NOSHI</span>{" "}
+              <b>
+                <span style={{ color: "#24465f", fontWeight: 700 }}>BOSHI</span>
+              </b>
+            </span>
           </span>
           <span className="cross">X</span>
         </a>
