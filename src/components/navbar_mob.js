@@ -16,16 +16,14 @@ const Navbar = () => {
     <div>
       <div id="mySidepanel" className="sidepanel">
         <a className="closebtn" onClick={closeNav}>
-          <Link to="/">
-            <span className="brand-name">
-              <span style={{ color: "#e77063", fontWeight: 200 }}>Noshi</span>
-              <b>Boshi</b>
-            </span>
-          </Link>
+          <span className="brand-name">
+            <span style={{ color: "#e77063", fontWeight: 200 }}>Noshi</span>
+            <b>Boshi</b>
+          </span>
           <span className="cross">X</span>
         </a>
         <a
-          href="contactUs"
+          href="#"
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',
@@ -51,7 +49,7 @@ const Navbar = () => {
           About Us
         </a>
         <a
-          href="contactUs"
+          href="#"
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',

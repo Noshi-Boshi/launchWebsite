@@ -137,7 +137,10 @@ const Home = () => {
       <img className="shamiKabab" src={shamiKabab} alt="" />
       <section className="aboutUs">
         <div className="about">
-          <h1 style={{ color: "#e77063", fontWeight: 700 }}>
+          <h1
+            className="aboutHead"
+            style={{ color: "#e77063", fontWeight: 700 }}
+          >
             What is Noshi Boshi ?
           </h1>
           <div className="aboutPara">
