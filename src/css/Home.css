@@ -786,10 +786,13 @@ a:hover {
     -moz-box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
     box-shadow: 13px -7px 38px -4px rgba(0, 0, 0, 0.5);
   }
+  .my-form {
+    padding: 6%;
+  }
 
   .form-control {
     border-radius: 10px !important;
-    margin: 2% 0;
+    margin-bottom: 6%;
     background-color: #e7e6e7;
     border-width: 0;
   }
