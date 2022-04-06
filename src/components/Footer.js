@@ -67,9 +67,13 @@ const Footer = () => {
                 style={{ height: "3px", opacity: "100%" }}
               />
 
-              <h5 className="nav-sub-item">Phone : +91-8882355956</h5>
-              <h5 className="nav-sub-item">Email : support@noshiboshi.com</h5>
-              <h5 className="nav-sub-item">
+              <h5 className="nav-sub-item-without-link">
+                Phone : +91-8882355956
+              </h5>
+              <h5 className="nav-sub-item-without-link">
+                Email : support@noshiboshi.com
+              </h5>
+              <h5 className="nav-sub-item-without-link">
                 BF-4, Basement, Janakpuri - 110058
               </h5>
             </Col>

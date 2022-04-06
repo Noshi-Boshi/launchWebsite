@@ -6,6 +6,7 @@
 }
 a:hover {
   color: #e77063 !important;
+  cursor: pointer;
 }
 
 @media only screen and (min-device-width: 1373px) {
@@ -680,8 +681,7 @@ a:hover {
     font-weight: 700;
   }
   .cuisine {
-    margin-top: 40px;
-    margin-left: 20px;
+    margin: 40px 20px 0px 20px;
     font-weight: 500;
   }
   .orderRecipes {

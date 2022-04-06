@@ -127,6 +127,16 @@ const Home = () => {
           <Col lg={2} sm={4} xs={4}>
             <a onClick={() => setCuisineState("Indian")}>Indian</a>
           </Col>
+          {width > 768 ? (
+            <></>
+          ) : (
+            <>
+              {" "}
+              <Col sm={2} xs={2}>
+                {" "}
+              </Col>
+            </>
+          )}
           <Col lg={2} sm={4} xs={4}>
             <a onClick={() => setCuisineState("Mexican")}>Mexican</a>
           </Col>

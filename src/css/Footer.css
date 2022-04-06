@@ -23,6 +23,11 @@ a {
     cursor: pointer;
     font-size: 20px;
   }
+  .nav-sub-item-without-link {
+    line-height: 2;
+    font-weight: 300;
+    font-size: 20px;
+  }
   .followUs {
     margin-top: 50px;
   }
@@ -47,6 +52,11 @@ a {
     line-height: 2;
     font-weight: 300;
     cursor: pointer;
+    font-size: 20px;
+  }
+  .nav-sub-item-without-link {
+    line-height: 2;
+    font-weight: 300;
     font-size: 20px;
   }
   .followUs {
