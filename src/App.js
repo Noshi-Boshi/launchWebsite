@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import NavbarMob from "./components/navbar_mob";
 import Footer from "./components/Footer";
 import FooterMob from "./components/Footer_mob";
+import ScrollToTop from "./components/ScrolltoTop";
 import Delivery from "./pages/Delivery";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         {width > 768 ? <Navbar /> : <NavbarMob />}
         <main>
           <Routes>

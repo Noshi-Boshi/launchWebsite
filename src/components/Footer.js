@@ -39,35 +39,23 @@ const Footer = () => {
               )}
 
               {location.pathname === "/" ? (
-                <ScrollLink
-                  to="recipes"
-                  spy={true}
-                  smooth={true}
-                  offset={-10}
-                  duration={500}
-                >
+                <a href="/#recipes">
                   <h5 className="nav-sub-item">Menu</h5>
-                </ScrollLink>
+                </a>
               ) : (
-                <Link to="/">
+                <a href="/#recipes">
                   <h5 className="nav-sub-item">Menu</h5>
-                </Link>
+                </a>
               )}
 
               {location.pathname === "/" ? (
-                <ScrollLink
-                  to="aboutUs"
-                  spy={true}
-                  smooth={true}
-                  offset={-130}
-                  duration={500}
-                >
+                <a href="#aboutUs">
                   <h5 className="nav-sub-item">About us</h5>
-                </ScrollLink>
+                </a>
               ) : (
-                <Link to="/">
+                <a href="/#aboutUs">
                   <h5 className="nav-sub-item">About us</h5>
-                </Link>
+                </a>
               )}
 
               <h5 className="nav-sub-item ">FAQs</h5>

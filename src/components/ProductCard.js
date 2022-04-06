@@ -23,7 +23,7 @@ const Product = ({ product }) => {
         style={{ opacity: "0.45" }}
       />
       <Card.ImgOverlay>
-        <Card.Title style={{ marginTop: "180px" }}>Butter Chicken</Card.Title>
+        <Card.Title style={{ marginTop: "165px" }}>Butter Chicken</Card.Title>
         <Card.Text style={{ margin: "0px" }}>25 min | 675 kcal</Card.Text>
         <Card.Text>₹ 450</Card.Text>
       </Card.ImgOverlay>

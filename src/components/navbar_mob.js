@@ -27,7 +27,7 @@ const Navbar = () => {
           <span className="cross">X</span>
         </a>
         <a
-          href="#"
+          href="/#recipes"
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',
@@ -40,7 +40,7 @@ const Navbar = () => {
           Menu
         </a>
         <a
-          href="#"
+          href="/#aboutUs"
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',
@@ -53,7 +53,7 @@ const Navbar = () => {
           About Us
         </a>
         <a
-          href="#"
+          href="/#contactUs"
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',
