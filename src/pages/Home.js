@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "../css/Home.css";
 import ProductCard from "../components/ProductCard";
@@ -42,6 +42,8 @@ const Home = () => {
     }
   }
   const { innerWidth: width, innerHeight: height } = window;
+
+  const [cuisineMenu, setCuisineState] = useState("Continental");
 
   return (
     <div>
@@ -117,38 +119,102 @@ const Home = () => {
           }}
         >
           <Col lg={2} sm={4} xs={4}>
-            Continental
+            <a onClick={() => setCuisineState("Continental")}> Continental</a>
           </Col>
           <Col lg={2} sm={4} xs={4}>
-            Chinese
+            <a onClick={() => setCuisineState("Chinese")}>Chinese</a>
           </Col>
           <Col lg={2} sm={4} xs={4}>
-            Indian
+            <a onClick={() => setCuisineState("Indian")}>Indian</a>
           </Col>
           <Col lg={2} sm={4} xs={4}>
-            Mexican
+            <a onClick={() => setCuisineState("Mexican")}>Mexican</a>
           </Col>
           <Col lg={2} sm={4} xs={4}>
-            Italian
+            <a onClick={() => setCuisineState("Chinese")}>Italian</a>
           </Col>
         </Row>
         <div className="orderRecipes">
-          <ScrollMenu
-            options={{
-              ratio: 0.9,
-              rootMargin: "5px",
-              onWheel: { onWheel },
-              threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
-            }}
-          >
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-          </ScrollMenu>
+          {cuisineMenu === "Continental" && (
+            <>
+              <ScrollMenu
+                options={{
+                  ratio: 0.9,
+                  rootMargin: "5px",
+                  onWheel: { onWheel },
+                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                }}
+              >
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+              </ScrollMenu>
+            </>
+          )}
+          {cuisineMenu === "Chinese" && (
+            <>
+              <ScrollMenu
+                options={{
+                  ratio: 0.9,
+                  rootMargin: "5px",
+                  onWheel: { onWheel },
+                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                }}
+              >
+                <ProductCard />
+                <ProductCard />
+              </ScrollMenu>
+            </>
+          )}
+          {cuisineMenu === "Indian" && (
+            <>
+              <ScrollMenu
+                options={{
+                  ratio: 0.9,
+                  rootMargin: "5px",
+                  onWheel: { onWheel },
+                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                }}
+              >
+                <ProductCard />
+                <ProductCard />
+              </ScrollMenu>
+            </>
+          )}
+          {cuisineMenu === "Mexican" && (
+            <>
+              <ScrollMenu
+                options={{
+                  ratio: 0.9,
+                  rootMargin: "5px",
+                  onWheel: { onWheel },
+                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                }}
+              >
+                <ProductCard />
+                <ProductCard />
+              </ScrollMenu>
+            </>
+          )}
+          {cuisineMenu === "Italian" && (
+            <>
+              <ScrollMenu
+                options={{
+                  ratio: 0.9,
+                  rootMargin: "5px",
+                  onWheel: { onWheel },
+                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                }}
+              >
+                <ProductCard />
+                <ProductCard />
+              </ScrollMenu>
+            </>
+          )}
         </div>
         <a href="https://play.google.com/store/apps/details?id=com.noshiboshi.noshiboshi">
           {" "}
