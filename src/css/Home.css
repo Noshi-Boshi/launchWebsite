@@ -5,8 +5,7 @@
   margin-left: 60px;
 }
 a:hover {
-  text-decoration: none;
-  color: inherit;
+  color: #e77063 !important;
 }
 
 @media only screen and (min-device-width: 1373px) {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as LinkRouter } from "react-router-dom";
-
+import "../css/Navbar.css";
 const Navbar = () => {
   return (
     <div className="Navbar">

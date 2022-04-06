@@ -61,6 +61,7 @@ const Home = () => {
         <img className="blueMockup" align="right" src={blueMockup} alt="" />
         <img className="blueCoralLogo" src={blueCoralLogo} alt="" />
         <img className="orderNow" src={orderNow} alt="" />
+
         <div className="selectMeal">
           <h1>Select meal-kits</h1>
           <h1>Right at your</h1>
@@ -149,7 +150,10 @@ const Home = () => {
             <ProductCard />
           </ScrollMenu>
         </div>
-        <img className="orderRecipeNow" src={orderNow} alt="" />
+        <a href="https://play.google.com/store/apps/details?id=com.noshiboshi.noshiboshi">
+          {" "}
+          <img className="orderRecipeNow" src={orderNow} alt="" />
+        </a>
       </section>
       <img className="shamiKabab" src={shamiKabab} alt="" />
       <section id="aboutUs">
@@ -207,16 +211,31 @@ const Home = () => {
                       }}
                     >
                       <p style={{ marginBottom: "30px" }}>
-                        <BsFillTelephoneFill style={{ marginRight: "30px" }} />
-                        +91-8882355956
+                        <Row>
+                          <Col lg={2}>
+                            {" "}
+                            <BsFillTelephoneFill
+                              style={{ marginRight: "30px" }}
+                            />
+                          </Col>
+                          <Col lg={8}>+91-8882355956</Col>
+                        </Row>
                       </p>
                       <p style={{ marginBottom: "30px" }}>
-                        <GrMail style={{ marginRight: "30px" }} />
-                        support@noshiboshi.com
+                        <Row>
+                          <Col lg={2}>
+                            <GrMail style={{ marginRight: "30px" }} />
+                          </Col>
+                          <Col lg={8}>support@noshiboshi.com</Col>
+                        </Row>
                       </p>
                       <p>
-                        <HiLocationMarker style={{ marginRight: "30px" }} />
-                        BF-4, Basement, Janakpuri - 110058
+                        <Row>
+                          <Col lg={2}>
+                            <HiLocationMarker />
+                          </Col>
+                          <Col lg={8}>BF-4, Basement, Janakpuri - 110058</Col>
+                        </Row>
                       </p>
                     </div>
                   </div>
