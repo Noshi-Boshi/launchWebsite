@@ -78,9 +78,9 @@ const Footer = () => {
                 className="footerHr"
                 style={{ height: "3px", opacity: "100%" }}
               />
-              <a href="/deliveryShipping">
+              <Link to="/deliveryShipping">
                 <h5 className="nav-sub-item">Delivery and Shipping</h5>
-              </a>
+              </Link>
 
               <Link to="/cancellationAndRefund">
                 <h5 className="nav-sub-item">Cancellation and Refund</h5>
