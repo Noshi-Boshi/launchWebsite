@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
 import { useLocation } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 import "../css/Footer.css";
@@ -23,19 +22,15 @@ const Footer = () => {
               />
 
               {location.pathname === "/" ? (
-                <ScrollLink
-                  to="landing"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
-                >
+                <a href="/">
+                  {" "}
                   <h5 className="nav-sub-item">Home</h5>
-                </ScrollLink>
+                </a>
               ) : (
-                <Link to="/">
+                <a href="/">
+                  {" "}
                   <h5 className="nav-sub-item">Home</h5>
-                </Link>
+                </a>
               )}
 
               {location.pathname === "/" ? (

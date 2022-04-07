@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 .Navbar {
   margin-top: 20px;
   margin-left: 60px;
@@ -87,6 +92,7 @@ a:hover {
   }
 
   /*------------------recipe section----------------------------*/
+
   .recipeHeading {
     color: #24465f;
     font-weight: 700;
@@ -125,7 +131,7 @@ a:hover {
     transform: rotate(-35deg);
   }
   .about {
-    margin-top: 170px;
+    padding-top: 170px;
     margin-left: 100px;
   }
   .aboutHead {
