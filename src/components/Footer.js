@@ -82,8 +82,15 @@ const Footer = () => {
                 <h5 className="nav-sub-item">Delivery and Shipping</h5>
               </Link>
 
-              <h5 className="nav-sub-item">Cancellation and Refund</h5>
-              <h5 className="nav-sub-item">Terms of Service</h5>
+              <Link to="/cancellationAndRefund">
+                <h5 className="nav-sub-item">Cancellation and Refund</h5>
+              </Link>
+
+              <Link to="termsOfService">
+                {" "}
+                <h5 className="nav-sub-item">Terms of Service</h5>
+              </Link>
+
               <Link to="/privacyPolicy">
                 <h5 className="nav-sub-item">Privacy Policy</h5>
               </Link>

@@ -6,6 +6,9 @@ import FooterMob from "./components/Footer_mob";
 
 import Delivery from "./pages/Delivery";
 import Policy from "./pages/Policies";
+import Cancellation from "./pages/Cancellation";
+import Terms from "./pages/Terms";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -23,6 +26,17 @@ function App() {
           </Routes>
           <Routes>
             <Route exact path="/privacyPolicy" element={<Policy />} />
+          </Routes>
+          <Routes>
+            <Route
+              exact
+              path="/cancellationAndRefund"
+              element={<Cancellation />}
+            />
+          </Routes>
+
+          <Routes>
+            <Route exact path="/termsOfService" element={<Terms />} />
           </Routes>
         </main>
         {width > 765 ? <Footer /> : <FooterMob />}
