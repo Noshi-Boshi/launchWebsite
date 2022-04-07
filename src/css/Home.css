@@ -459,8 +459,7 @@ a:hover {
     top: 350px;
   }
   .iosNewsletter {
-    margin-top: 80px;
-    margin-right: 200px;
+    margin: 100px 250px 0px 70px;
     padding: 0 100px;
     text-align: center;
     color: #24465f;
