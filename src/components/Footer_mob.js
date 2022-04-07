@@ -29,9 +29,17 @@ const FooterMob = () => {
               <h5 className="nav-sub-item-mob">Delivery and Shipping</h5>
             </Link>
 
-            <h5 className="nav-sub-item-mob">Cancellation and Refund</h5>
-            <h5 className="nav-sub-item-mob">Terms of Service</h5>
-            <h5 className="nav-sub-item-mob">Privacy Policy</h5>
+            <Link to="/cancellationAndRefund">
+              <h5 className="nav-sub-item-mob">Cancellation and Refund</h5>
+            </Link>
+
+            <Link to="termsOfService">
+              <h5 className="nav-sub-item-mob">Terms of Service</h5>
+            </Link>
+
+            <Link to="/privacyPolicy">
+              <h5 className="nav-sub-item-mob">Privacy Policy</h5>
+            </Link>
           </Col>
         </Row>
         <div className="follow">
