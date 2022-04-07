@@ -39,6 +39,7 @@ function App() {
             <Route exact path="/termsOfService" element={<Terms />} />
           </Routes>
         </main>
+
         {width > 765 ? <Footer /> : <FooterMob />}
       </Router>
     </div>
