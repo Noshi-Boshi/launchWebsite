@@ -6,7 +6,6 @@ import { ScrollLink } from "react-scroll";
 const Navbar = () => {
   function openNav() {
     document.getElementById("mySidepanel").style.width = "250px";
-    console.log("Click happened");
   }
 
   function closeNav() {
@@ -28,6 +27,7 @@ const Navbar = () => {
         </a>
         <a
           href="/#recipes"
+          onClick={closeNav}
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',
@@ -41,6 +41,7 @@ const Navbar = () => {
         </a>
         <a
           href="/#aboutUs"
+          onClick={closeNav}
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',
@@ -54,6 +55,7 @@ const Navbar = () => {
         </a>
         <a
           href="/#contactUs"
+          onClick={closeNav}
           style={{
             color: "#24465f",
             fontFamily: '"Poppins"',
@@ -69,7 +71,8 @@ const Navbar = () => {
           <i>
             Find us interesting?
             <p>
-              <span style={{ color: "#e77063" }}>Join</span> our newsletter
+              <span style={{ color: "#e77063" }}>Subscribe</span> to our mailing
+              list.
             </p>
           </i>
         </div>

@@ -16,9 +16,11 @@ const FooterMob = () => {
             <h6 style={{ marginLeft: "0px" }}>Reach out to us</h6>
             <hr className="line" style={{ height: "3px", opacity: "100%" }} />
 
-            <h5 className="nav-sub-item-mob">Phone : +91-9911314947</h5>
-            <h5 className="nav-sub-item-mob">Email : hello@noshiboshi.com</h5>
-            <h5 className="nav-sub-item-mob">223, GB Road, Delhi, India</h5>
+            <h5 className="nav-sub-item-mob">Phone : +91-8882355956</h5>
+            <h5 className="nav-sub-item-mob">Email : support@noshiboshi.com</h5>
+            <h5 className="nav-sub-item-mob">
+              BF-4, Basement, Janakpuri - 110058
+            </h5>
           </Col>
           <Col style={{ textAlign: "right", marginRight: "5%" }}>
             <h6>Policy</h6>

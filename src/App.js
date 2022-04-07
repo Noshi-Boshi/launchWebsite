@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import FooterMob from "./components/Footer_mob";
 
 import Delivery from "./pages/Delivery";
+import Policy from "./pages/Policies";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
           </Routes>
           <Routes>
             <Route exact path="/deliveryShipping" element={<Delivery />} />
+          </Routes>
+          <Routes>
+            <Route exact path="/privacyPolicy" element={<Policy />} />
           </Routes>
         </main>
         {width > 765 ? <Footer /> : <FooterMob />}

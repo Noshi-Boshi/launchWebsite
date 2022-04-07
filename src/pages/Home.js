@@ -119,13 +119,51 @@ const Home = () => {
           }}
         >
           <Col lg={2} sm={4} xs={4}>
-            <a onClick={() => setCuisineState("Continental")}> Continental</a>
+            {cuisineMenu === "Continental" ? (
+              <a
+                style={{ color: "#e77063" }}
+                onClick={() => setCuisineState("Continental")}
+              >
+                {" "}
+                Continental
+              </a>
+            ) : (
+              <>
+                <a onClick={() => setCuisineState("Continental")}>
+                  {" "}
+                  Continental
+                </a>{" "}
+              </>
+            )}
           </Col>
           <Col lg={2} sm={4} xs={4}>
-            <a onClick={() => setCuisineState("Chinese")}>Chinese</a>
+            {cuisineMenu === "Chinese" ? (
+              <a
+                style={{ color: "#e77063" }}
+                onClick={() => setCuisineState("Chinese")}
+              >
+                Chinese
+              </a>
+            ) : (
+              <>
+                {" "}
+                <a onClick={() => setCuisineState("Chinese")}>Chinese</a>
+              </>
+            )}
           </Col>
           <Col lg={2} sm={4} xs={4}>
-            <a onClick={() => setCuisineState("Indian")}>Indian</a>
+            {cuisineMenu === "Indian" ? (
+              <a
+                style={{ color: "#e77063" }}
+                onClick={() => setCuisineState("Indian")}
+              >
+                Indian
+              </a>
+            ) : (
+              <>
+                <a onClick={() => setCuisineState("Indian")}>Indian</a>
+              </>
+            )}
           </Col>
           {width > 768 ? (
             <></>
@@ -138,10 +176,33 @@ const Home = () => {
             </>
           )}
           <Col lg={2} sm={4} xs={4}>
-            <a onClick={() => setCuisineState("Mexican")}>Mexican</a>
+            {cuisineMenu === "Mexican" ? (
+              <a
+                style={{ color: "#e77063" }}
+                onClick={() => setCuisineState("Mexican")}
+              >
+                Mexican
+              </a>
+            ) : (
+              <>
+                <a onClick={() => setCuisineState("Mexican")}>Mexican</a>
+              </>
+            )}
           </Col>
           <Col lg={2} sm={4} xs={4}>
-            <a onClick={() => setCuisineState("Chinese")}>Italian</a>
+            {cuisineMenu === "Italian" ? (
+              <a
+                style={{ color: "#e77063" }}
+                onClick={() => setCuisineState("Chinese")}
+              >
+                Italian
+              </a>
+            ) : (
+              <>
+                {" "}
+                <a onClick={() => setCuisineState("Italian")}>Italian</a>
+              </>
+            )}
           </Col>
         </Row>
         <div className="orderRecipes">
