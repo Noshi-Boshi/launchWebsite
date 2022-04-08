@@ -37,7 +37,7 @@ const Dishes = [
   {
     Name: "Nutella Hazelnut Bomboloni",
     Cuisine: "Italian",
-    ImageUrl: "images/nutellabomboloni.jpg",
+    ImageUrl: "images/bomboloni.jpeg",
   },
   {
     Name: "Chicken 65",
@@ -47,7 +47,7 @@ const Dishes = [
   {
     Name: "Orange Mandarin Chicken",
     Cuisine: "Chinese",
-    ImageUrl: "images/orangenchicken.jpg",
+    ImageUrl: "images/orangenchicken.jpeg",
   },
   {
     Name: "Vegetable Calzone",
