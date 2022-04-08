@@ -10,7 +10,7 @@ const Product = ({ product }) => {
       className="bg-dark text-white"
       style={{
         width: "214px",
-        height: "276px",
+        height: "270px",
         borderRadius: "25px",
         display: "inline-block",
         margin: "15px ",
@@ -18,14 +18,19 @@ const Product = ({ product }) => {
       }}
     >
       <Card.Img
-        src={ButterChicken}
+        src={product.ImageUrl}
         alt="Card image"
-        style={{ opacity: "0.45" }}
+        style={{
+          opacity: "0.45",
+          width: "100%",
+          height: "16.87em",
+          borderRadius: "20px",
+        }}
       />
       <Card.ImgOverlay>
-        <Card.Title style={{ marginTop: "165px" }}>Butter Chicken</Card.Title>
-        <Card.Text style={{ margin: "0px" }}>25 min | 675 kcal</Card.Text>
-        <Card.Text>₹ 450</Card.Text>
+        <Card.Title style={{ marginTop: "200px" }}>{product.Name}</Card.Title>
+        {/* <Card.Text style={{ margin: "0px" }}>25 min | 675 kcal</Card.Text>
+        <Card.Text>₹ 450</Card.Text> */}
       </Card.ImgOverlay>
     </Card>
   );

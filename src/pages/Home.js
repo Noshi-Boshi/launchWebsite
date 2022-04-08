@@ -23,6 +23,8 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { HiLocationMarker } from "react-icons/hi";
 
+import Dishes from "../data/recipe";
+
 const Home = () => {
   function onWheel(
     apiObj: scrollVisibilityApiType,
@@ -216,13 +218,17 @@ const Home = () => {
                   threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
                 }}
               >
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
+                {Dishes.map((dish) => (
+                  <>
+                    {dish.Cuisine === "Continental" ? (
+                      <>
+                        <ProductCard product={dish} />
+                      </>
+                    ) : (
+                      <></>
+                    )}
+                  </>
+                ))}
               </ScrollMenu>
             </>
           )}
@@ -236,8 +242,17 @@ const Home = () => {
                   threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
                 }}
               >
-                <ProductCard />
-                <ProductCard />
+                {Dishes.map((dish) => (
+                  <>
+                    {dish.Cuisine === "Chinese" ? (
+                      <>
+                        <ProductCard product={dish} />
+                      </>
+                    ) : (
+                      <></>
+                    )}
+                  </>
+                ))}
               </ScrollMenu>
             </>
           )}
@@ -251,8 +266,17 @@ const Home = () => {
                   threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
                 }}
               >
-                <ProductCard />
-                <ProductCard />
+                {Dishes.map((dish) => (
+                  <>
+                    {dish.Cuisine === "Indian" ? (
+                      <>
+                        <ProductCard product={dish} />
+                      </>
+                    ) : (
+                      <></>
+                    )}
+                  </>
+                ))}
               </ScrollMenu>
             </>
           )}
@@ -266,8 +290,17 @@ const Home = () => {
                   threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
                 }}
               >
-                <ProductCard />
-                <ProductCard />
+                {Dishes.map((dish) => (
+                  <>
+                    {dish.Cuisine === "Mexican" ? (
+                      <>
+                        <ProductCard product={dish} />
+                      </>
+                    ) : (
+                      <></>
+                    )}
+                  </>
+                ))}
               </ScrollMenu>
             </>
           )}
@@ -281,8 +314,17 @@ const Home = () => {
                   threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
                 }}
               >
-                <ProductCard />
-                <ProductCard />
+                {Dishes.map((dish) => (
+                  <>
+                    {dish.Cuisine === "Italian" ? (
+                      <>
+                        <ProductCard product={dish} />
+                      </>
+                    ) : (
+                      <></>
+                    )}
+                  </>
+                ))}
               </ScrollMenu>
             </>
           )}
