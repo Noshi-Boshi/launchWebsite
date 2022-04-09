@@ -51,7 +51,7 @@ const Home = () => {
   return (
     <div>
       {" "}
-      <section className="landing" style={{ overflowX: "hidden" }}>
+      <section id="home" className="landing" style={{ overflowX: "hidden" }}>
         {width > 768 ? (
           <img className="malaiKofta" align="right" src={malaiKofta} alt="" />
         ) : (
@@ -81,9 +81,9 @@ const Home = () => {
         </a>
 
         <p className="iosNewsletter">
-          Releasing soon on iOS. Join our
-          <span style={{ color: "#e77063" }}> mailing</span> list for further
-          updates.
+          iOS users can place order via
+          <span style={{ color: "#e77063" }}> Instagram DM</span> or
+          <span style={{ color: "#e77063" }}> Whatsapp.</span>
         </p>
 
         <a

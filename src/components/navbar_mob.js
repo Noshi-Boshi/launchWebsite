@@ -69,11 +69,9 @@ const Navbar = () => {
         </a>
         <div className="content-down">
           <i>
-            Find us interesting?
-            <p>
-              <span style={{ color: "#e77063" }}>Subscribe</span> to our mailing
-              list.
-            </p>
+            iOS users can place order via
+            <span style={{ color: "#e77063" }}> Instagram DM</span> or
+            <span style={{ color: "#e77063" }}> Whatsapp.</span>
           </i>
         </div>
       </div>
