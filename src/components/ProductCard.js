@@ -25,7 +25,7 @@ const Product = ({ product }) => {
         }}
       />
       <Card.ImgOverlay>
-        <Card.Title style={{ marginTop: "170px" }}>{product.Name}</Card.Title>
+        <Card.Title style={{ marginTop: "165px" }}>{product.Name}</Card.Title>
         <Card.Text style={{ margin: "0px" }}>25 min | 675 kcal</Card.Text>
         {/* <Card.Text>₹ 450</Card.Text> */}
       </Card.ImgOverlay>
