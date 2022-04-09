@@ -9,39 +9,31 @@ import Policy from "./pages/Policies";
 import Cancellation from "./pages/Cancellation";
 import Terms from "./pages/Terms";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Routes, Route, Outlet, Link, BrowserRouter } from "react-router-dom";
+
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const { innerWidth: width, innerHeight: height } = window;
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
         {width > 768 ? <Navbar /> : <NavbarMob />}
-        <main>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-          </Routes>
-          <Routes>
-            <Route exact path="/deliveryShipping" element={<Delivery />} />
-          </Routes>
-          <Routes>
-            <Route exact path="/privacyPolicy" element={<Policy />} />
-          </Routes>
-          <Routes>
-            <Route
-              exact
-              path="/cancellationAndRefund"
-              element={<Cancellation />}
-            />
-          </Routes>
 
-          <Routes>
-            <Route exact path="/termsOfService" element={<Terms />} />
-          </Routes>
-        </main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+
+          <Route path="deliveryShipping" element={<Delivery />} />
+
+          <Route path="privacyPolicy" element={<Policy />} />
+
+          <Route path="cancellationAndRefund" element={<Cancellation />} />
+
+          <Route path="termsOfService" element={<Terms />} />
+        </Routes>
 
         {width > 765 ? <Footer /> : <FooterMob />}
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

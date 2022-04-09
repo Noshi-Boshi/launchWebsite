@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Delivery.css";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Delivery = () => {
   return (

@@ -17,11 +17,12 @@ import Spaghetti from "../assets/Spaghetti Aglio e Olio/Spaghetti Aglio e Olio.p
 import { Row, Col } from "react-bootstrap";
 
 import { ScrollMenu } from "react-horizontal-scrolling-menu";
-// import { LeftArrow, RightArrow } from "./arrows/arrows";
 
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { HiLocationMarker } from "react-icons/hi";
+
+import { AnimateSharedLayout } from "framer-motion";
 
 import Dishes from "../data/recipe";
 

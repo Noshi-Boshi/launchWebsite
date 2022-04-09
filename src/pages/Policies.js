@@ -10,50 +10,302 @@ const Policy = () => {
         </div>
         <hr className="delivery-hr" />
         <div className="delivery-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          vel felis dui. Suspendisse orci tellus, pharetra quis sem eget,
-          maximus sagittis nisi. Phasellus ac mattis enim. Vestibulum arcu nisl,
-          tempor ornare dictum nec, vulputate a enim. Cras et fermentum ipsum.
-          Pellentesque semper id massa vestibulum lobortis. Quisque mattis
-          lobortis hendrerit. Proin ut mauris odio. Phasellus nisl massa, dictum
-          sed sapien quis, finibus tempor tortor. Nulla hendrerit mi diam,
-          facilisis tempor tellus porttitor sit amet. Aenean consectetur vel
-          nisl ut semper. Praesent massa risus, volutpat a bibendum nec, cursus
-          commodo est. Praesent tellus nunc, fringilla id metus eget, lacinia
-          faucibus velit. Curabitur fermentum vel arcu ornare aliquam. In hac
-          habitasse platea dictumst. Proin sapien odio, euismod sit amet
-          pulvinar vel, dignissim sollicitudin purus. Phasellus eu lorem a
-          lectus congue tristique gravida eu dolor. Nulla nec lacinia mauris,
-          rutrum luctus elit. Duis eleifend tincidunt sapien vitae facilisis.
-          Aenean et massa a leo finibus sollicitudin. Aenean ornare elit sed sem
-          convallis, porta auctor urna luctus. Praesent id mi mi. Sed ac
-          placerat massa, nec blandit dui. Cras tristique leo dignissim risus
-          tempus rutrum. Interdum et malesuada fames ac ante ipsum primis in
-          faucibus. Aliquam semper nec turpis id cursus. Nunc maximus, velit ac
-          auctor eleifend, lectus lectus vehicula urna, eu aliquam nulla metus
-          vel enim. Nunc id pharetra tortor. Maecenas enim erat, malesuada quis
-          quam eu, finibus iaculis risus. Donec sollicitudin tincidunt nibh, et
-          molestie justo convallis non. Pellentesque ac orci ut urna feugiat
-          rutrum. Duis ullamcorper nulla eget nisl hendrerit imperdiet. Integer
-          pretium risus non consectetur ornare. Etiam non nunc ex. Nunc maximus,
-          lorem ut feugiat iaculis, nunc velit commodo ligula, et fermentum
-          justo tellus id enim. In hac habitasse platea dictumst. Praesent id
-          feugiat purus. Nam blandit, mi in laoreet semper, felis nisi bibendum
-          justo, nec pulvinar nulla magna vitae est. Integer sit amet volutpat
-          tortor. Sed maximus eros mauris, sed cursus nisi mattis in. Vestibulum
-          sapien magna, scelerisque vel luctus non, ultrices quis ipsum. Donec
-          fermentum imperdiet viverra. Sed et laoreet purus, quis pharetra nisi.
-          Ut rutrum sem vitae odio volutpat egestas. Nullam finibus nisl ac
-          turpis varius, volutpat semper odio maximus. Nam pretium purus sit
-          amet tortor convallis, et congue justo accumsan. Donec urna ante,
-          condimentum nec diam quis, vehicula venenatis metus. Proin quis
-          lacinia odio. Vestibulum sit amet est quis neque rutrum tempus non sed
-          diam. Cras a elementum urna. Phasellus venenatis scelerisque
-          fringilla. Etiam malesuada auctor nisi, nec sagittis turpis dictum
-          vel. Proin elementum lacinia libero vel tristique. Aenean mi sapien,
-          posuere id justo vel, ullamcorper hendrerit nulla. Duis porta elit
-          lacinia placerat rhoncus. Phasellus massa velit, tincidunt vel magna
-          vel, hendrerit porta ante. Quisque in interdum nulla.
+          Last updated: March 06, 2022 <br />
+          This Privacy Policy describes Our policies and procedures on the
+          collection, use and disclosure of Your information when You use the
+          Service and tells You about Your privacy rights and how the law
+          protects You. <br />
+          We use Your Personal data to provide and improve the Service. By using
+          the Service, You agree to the collection and use of information in
+          accordance with this Privacy Policy. <br /> <br />
+          <h5
+            style={{
+              fontFamily: "Poppins",
+              color: "#e77063",
+              fontWeight: "550",
+            }}
+          >
+            Interpretation and Definitions
+          </h5>
+          <br />
+          <h6
+            style={{
+              fontFamily: "Poppins",
+              color: "#24465f",
+              fontWeight: "550",
+            }}
+          >
+            Interpretation
+          </h6>
+          The words of which the initial letter is capitalized have meanings
+          defined under the following conditions. The following definitions
+          shall have the same meaning regardless of whether they appear in
+          singular or in plural.
+          <br />
+          <br />
+          <h6
+            style={{
+              fontFamily: "Poppins",
+              color: "#24465f",
+              fontWeight: "550",
+            }}
+          >
+            Definitions
+          </h6>
+          For the purposes of this Privacy Policy:
+          <br /> <br/>
+          <span style={{fontWeight:"700"}}>Account</span> means a unique account created for You to access our Service
+          or parts of our Service.<br/>
+          <span style={{fontWeight:"700"}}>Affiliate</span> means an entity that controls, is
+          controlled by or is under common control with a party, where "control"
+          means ownership of 50% or more of the shares, equity interest or other
+          securities entitled to vote for election of directors or other
+          managing authority.<br/>
+          <span style={{fontWeight:"700"}}>Application</span> means the software program, named
+          Noshi Boshi. provided by the Company downloaded by You on any
+          electronic device. <br/>
+          <span style={{fontWeight:"700"}}>Company</span> (referred to as either "the Company", "We",
+          "Us" or "Our" in this Agreement) refers to Noshi Boshi. <br/>
+          <span style={{fontWeight:"700"}}>Country</span> refers
+          to: India <br/>
+          <span style={{fontWeight:"700"}}>Device</span> means any device that can access the Service such as
+          a computer, a cell phone or a digital tablet. <br/>
+          <span style={{fontWeight:"700"}}>Personal</span> Data is any
+          information that relates to an identified or identifiable individual.<br/>
+          <span style={{fontWeight:"700"}}>Service</span> refers to the Application. <br/>
+          <span style={{fontWeight:"700"}}>Service Provider</span> means any natural
+          or legal person who processes the data on behalf of the Company. It
+          refers to third-party companies or individuals employed by the Company
+          to facilitate the Service, to provide the Service on behalf of the
+          Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.<br/>
+          <span style={{fontWeight:"700"}}>Usage Data</span> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself.<br/>
+          <span style={{fontWeight:"700"}}>You</span> refers to the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.<br /><br/>
+          <h5
+            style={{
+              fontFamily: "Poppins",
+              color: "#e77063",
+              fontWeight: "550",
+            }}
+          >
+          Collecting and Using Your Personal Data
+          </h5><br/>
+          <h6
+          style={{
+            fontFamily: "Poppins",
+            color: "#24465f",
+            fontWeight: "550",
+            fontSize:"1.1rem"
+          }}
+        >
+        Types of Data Collected
+        </h6><br/>
+        <h6
+        style={{
+          fontFamily: "Poppins",
+          color: "#e77063",
+          fontWeight: "550",
+          fontSize:"0.9rem"
+        }}
+      >
+      Personal Data
+      </h6>
+      While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:<br/>
+      Email address<br/>
+      First name and last name<br/>
+      Phone number<br/>
+      Address, State, Province, ZIP/Postal code, City<br/>
+      Usage Data<br/> <br/>
+      <h6
+      style={{
+        fontFamily: "Poppins",
+        color: "#e77063",
+        fontWeight: "550",
+        fontSize:"0.9rem"
+      }}
+    >
+    Usage Data
+    </h6>
+    Usage Data is collected automatically when using the Service.<br/>
+    Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.<br/>
+    When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
+    We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.<br/><br/><br/>
+    
+    <h6
+          style={{
+            fontFamily: "Poppins",
+            color: "#24465f",
+            fontWeight: "550",
+            fontSize:"1.1rem"
+          }}
+        >
+        Use of Your Personal Data
+        </h6>
+        The Company may use Personal Data for the following purposes:<br/><br/>
+        <span style={{fontWeight:"700"}}>To provide and maintain our Service</span> , including to monitor the usage of our Service.<br/>
+        <span style={{fontWeight:"700"}}>To manage Your Account:</span>  to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.<br/>
+        <span style={{fontWeight:"700"}}>For the performance of a contract:</span>  the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.<br/>
+        <span style={{fontWeight:"700"}}>To contact You:</span>  To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.<br/>
+        <span style={{fontWeight:"700"}}>To provide You</span>  with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.<br/>
+        <span style={{fontWeight:"700"}}>To manage Your requests:</span> To attend and manage Your requests to Us.<br/>
+        <span style={{fontWeight:"700"}}>Service</span> For business transfers: We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.<br/>
+        <span style={{fontWeight:"700"}}>For other purposes:</span>  We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.<br/><br/>
+        We may share Your personal information in the following situations:<br/><br/>
+        <ul>
+        <li><span style={{fontWeight:"700"}}>With Service Providers:</span>	 We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.</li>
+        <li><span style={{fontWeight:"700"}}>For business transfers:</span> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
+        <li><span style={{fontWeight:"700"}}>With Affiliates:</span> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
+        <li><span style={{fontWeight:"700"}}>With business partners:</span> We may share Your information with Our business partners to offer You certain products, services or promotions.</li>
+        <li><span style={{fontWeight:"700"}}>With Your consent:</span> We may disclose Your personal information for any other purpose with Your consent.</li>
+        </ul>
+<br/>
+        <h6
+          style={{
+            fontFamily: "Poppins",
+            color: "#24465f",
+            fontWeight: "550",
+            fontSize:"1.1rem"
+          }}
+        >
+        Retention of Your Personal Data
+        </h6>
+        The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our legal agreements and policies.<br/>
+The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods. <br/><br/>
+<h6
+style={{
+  fontFamily: "Poppins",
+  color: "#24465f",
+  fontWeight: "550",
+  fontSize:"1.1rem"
+}}
+>
+Transfer of Your Personal Data
+</h6>
+Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.<br/>
+Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.<br/>
+The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information. <br/><br/>
+
+<h6
+style={{
+  fontFamily: "Poppins",
+  color: "#24465f",
+  fontWeight: "550",
+  fontSize:"1.1rem"
+}}
+>
+Disclosure of Your Personal Data
+</h6>
+<br/>
+<h6
+      style={{
+        fontFamily: "Poppins",
+        color: "#e77063",
+        fontWeight: "550",
+        fontSize:"0.9rem"
+      }}
+    >
+    Business Transactions
+    </h6>
+    If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
+    <br/><br/>
+
+    <h6
+      style={{
+        fontFamily: "Poppins",
+        color: "#e77063",
+        fontWeight: "550",
+        fontSize:"0.9rem"
+      }}
+    >
+    Law enforcement
+    </h6>
+    Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
+<br/><br/>
+    <h6
+      style={{
+        fontFamily: "Poppins",
+        color: "#e77063",
+        fontWeight: "550",
+        fontSize:"0.9rem"
+      }}
+    >
+    Other legal requirements
+    </h6>
+    The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
+    <ul>
+    <li>	Comply with a legal obligation</li>
+    <li>	Protect and defend the rights or property of the Company</li>
+    <li>	Prevent or investigate possible wrongdoing in connection with the Service
+    	
+    	
+    </li>
+    <li>Protect the personal safety of Users of the Service or the public</li>
+    <li>Protect against legal liability</li>
+    </ul>
+
+    <br/>
+    <h6
+style={{
+  fontFamily: "Poppins",
+  color: "#24465f",
+  fontWeight: "550",
+  fontSize:"1.1rem"
+}}
+>
+Security of Your Personal Data
+</h6>
+The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
+<br/><br/>
+<h5
+            style={{
+              fontFamily: "Poppins",
+              color: "#e77063",
+              fontWeight: "550",
+            }}
+          >
+          Children's Privacy
+          </h5>
+          Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.<br/>
+If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.
+<br/><br/>
+<h5
+            style={{
+              fontFamily: "Poppins",
+              color: "#e77063",
+              fontWeight: "550",
+            }}
+          >
+          Links to Other Websites
+          </h5>
+          Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.<br/>
+          We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+          <br/><br/>
+<h5
+            style={{
+              fontFamily: "Poppins",
+              color: "#e77063",
+              fontWeight: "550",
+            }}
+          >
+          Changes to this Privacy Policy
+          </h5>
+          We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy.<br/>
+We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.<br/>
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+<br/><br/>
+<h5
+            style={{
+              fontFamily: "Poppins",
+              color: "#e77063",
+              fontWeight: "550",
+            }}
+          >
+          Contact Us
+          </h5>
+          If you have any questions about this Privacy Policy, You can contact us:<br/>
+●	By email: support@noshiboshi.com
+
+
         </div>
       </div>
     </div>

@@ -10,50 +10,87 @@ const Cancellation = () => {
         </div>
         <hr className="delivery-hr" />
         <div className="delivery-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          vel felis dui. Suspendisse orci tellus, pharetra quis sem eget,
-          maximus sagittis nisi. Phasellus ac mattis enim. Vestibulum arcu nisl,
-          tempor ornare dictum nec, vulputate a enim. Cras et fermentum ipsum.
-          Pellentesque semper id massa vestibulum lobortis. Quisque mattis
-          lobortis hendrerit. Proin ut mauris odio. Phasellus nisl massa, dictum
-          sed sapien quis, finibus tempor tortor. Nulla hendrerit mi diam,
-          facilisis tempor tellus porttitor sit amet. Aenean consectetur vel
-          nisl ut semper. Praesent massa risus, volutpat a bibendum nec, cursus
-          commodo est. Praesent tellus nunc, fringilla id metus eget, lacinia
-          faucibus velit. Curabitur fermentum vel arcu ornare aliquam. In hac
-          habitasse platea dictumst. Proin sapien odio, euismod sit amet
-          pulvinar vel, dignissim sollicitudin purus. Phasellus eu lorem a
-          lectus congue tristique gravida eu dolor. Nulla nec lacinia mauris,
-          rutrum luctus elit. Duis eleifend tincidunt sapien vitae facilisis.
-          Aenean et massa a leo finibus sollicitudin. Aenean ornare elit sed sem
-          convallis, porta auctor urna luctus. Praesent id mi mi. Sed ac
-          placerat massa, nec blandit dui. Cras tristique leo dignissim risus
-          tempus rutrum. Interdum et malesuada fames ac ante ipsum primis in
-          faucibus. Aliquam semper nec turpis id cursus. Nunc maximus, velit ac
-          auctor eleifend, lectus lectus vehicula urna, eu aliquam nulla metus
-          vel enim. Nunc id pharetra tortor. Maecenas enim erat, malesuada quis
-          quam eu, finibus iaculis risus. Donec sollicitudin tincidunt nibh, et
-          molestie justo convallis non. Pellentesque ac orci ut urna feugiat
-          rutrum. Duis ullamcorper nulla eget nisl hendrerit imperdiet. Integer
-          pretium risus non consectetur ornare. Etiam non nunc ex. Nunc maximus,
-          lorem ut feugiat iaculis, nunc velit commodo ligula, et fermentum
-          justo tellus id enim. In hac habitasse platea dictumst. Praesent id
-          feugiat purus. Nam blandit, mi in laoreet semper, felis nisi bibendum
-          justo, nec pulvinar nulla magna vitae est. Integer sit amet volutpat
-          tortor. Sed maximus eros mauris, sed cursus nisi mattis in. Vestibulum
-          sapien magna, scelerisque vel luctus non, ultrices quis ipsum. Donec
-          fermentum imperdiet viverra. Sed et laoreet purus, quis pharetra nisi.
-          Ut rutrum sem vitae odio volutpat egestas. Nullam finibus nisl ac
-          turpis varius, volutpat semper odio maximus. Nam pretium purus sit
-          amet tortor convallis, et congue justo accumsan. Donec urna ante,
-          condimentum nec diam quis, vehicula venenatis metus. Proin quis
-          lacinia odio. Vestibulum sit amet est quis neque rutrum tempus non sed
-          diam. Cras a elementum urna. Phasellus venenatis scelerisque
-          fringilla. Etiam malesuada auctor nisi, nec sagittis turpis dictum
-          vel. Proin elementum lacinia libero vel tristique. Aenean mi sapien,
-          posuere id justo vel, ullamcorper hendrerit nulla. Duis porta elit
-          lacinia placerat rhoncus. Phasellus massa velit, tincidunt vel magna
-          vel, hendrerit porta ante. Quisque in interdum nulla.
+        <h5
+        style={{
+          fontFamily: "Poppins",
+          color: "#24465f",
+          fontWeight: "550",
+        }}
+      >
+      CANCELLATION POLICY
+      </h5>
+      Orders once placed through the app can be cancelled within 30 minutes of placing the order by emailing us at support@noshiboshi.com. The tight time frame is set because we usually process, pack and dispatch the order within 30 minutes of receiving the order.
+
+      <br/><br/>
+      <h5
+      style={{
+        fontFamily: "Poppins",
+        color: "#24465f",
+        fontWeight: "550",
+      }}
+    >
+    RETURN AND REFUND POLICY
+    </h5>
+    Meal kits once purchased cannot be returned, exchanged or refunded unless in the following circumstances:<br/><br/>
+
+    <h6
+        style={{
+          fontFamily: "Poppins",
+          color: "#e77063",
+          fontWeight: "550",
+          fontSize:"0.9rem"
+        }}
+      >
+      Missing Products
+      </h6>
+      In case of missing items, we will ensure the missing product(s) are delivered to the customer within 24 hours of confirmation. Customers are requested to contact us through email at support@noshiboshi.com within 2 hours of receiving the product. 
+The missing product(s) will be delivered within 24 hours of confirmation. In the rare circumstance that this timeline is not met, the customer is eligible for a 100% refund or credit as deemed fit. 
+<br/><br/>
+
+      <h6
+        style={{
+          fontFamily: "Poppins",
+          color: "#e77063",
+          fontWeight: "550",
+          fontSize:"0.9rem"
+        }}
+      >
+      Unfit to use:
+      </h6>
+      In case of missing items, we will ensure the missing product(s) are delivered to the customer within 24 hours of confirmation. Customers are requested to contact us through email at support@noshiboshi.com within 2 hours of receiving the product. <br/>
+      The missing product(s) will be delivered within 24 hours of confirmation. In the rare circumstance that this timeline is not met, the customer is eligible for a 100% refund or credit as deemed fit. 
+      <br/><br/>
+      <h6
+        style={{
+          fontFamily: "Poppins",
+          color: "#e77063",
+          fontWeight: "550",
+          fontSize:"0.9rem"
+        }}
+      >
+      Wrong Product: 
+      </h6>
+      In the rare circumstance that a wrong product is delivered to you, email us at support@noshiboshi.com with the relevant details and photographs. We will verify and initiate a replacement for that product.
+<br/><br/>
+      <h6
+        style={{
+          fontFamily: "Poppins",
+          color: "#e77063",
+          fontWeight: "550",
+          fontSize:"0.9rem"
+        }}
+      >
+      Refunds
+      </h6>
+      If your refund is approved, a suitable method of refund will be discussed with you before initiating the refund.<br/>
+      Please note that it can take some time for your bank or credit card company to process and post the refund too.<br/><br/>
+
+      Please contact us at support@noshiboshi.com for any return related queries.
+      
+      
+     
+
+
         </div>
       </div>
     </div>

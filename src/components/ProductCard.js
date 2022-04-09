@@ -1,8 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Card, Button } from "react-bootstrap";
-import malaiKofta from "../assets/Malai kofta/drawable-xxxhdpi/Malai kofta.png";
-import ButterChicken from "../assets/Butter Chicken/ButterChicken.png";
+import { Card } from "react-bootstrap";
 
 const Product = ({ product }) => {
   return (
@@ -24,7 +21,7 @@ const Product = ({ product }) => {
           opacity: "0.45",
           width: "100%",
           height: "16.87em",
-          borderRadius: "20px",
+          borderRadius: "25px",
         }}
       />
       <Card.ImgOverlay>
