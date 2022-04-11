@@ -41,11 +41,11 @@ const Home = () => {
       .post(
         "https://us-central1-noshiboshi-r.cloudfunctions.net/api/sendMessage",
         {
-          f_name: data.get("FirstName"),
-          l_name: data.get("LastName"),
-          phoneNum: data.get("num"),
-          message: data.get("message"),
-          email: data.get("email"),
+          f_name: data.FirstName,
+          l_name: data.LastName,
+          phoneNum: data.num,
+          message: data.message,
+          email: data.emailUser,
         }
       )
       .then(function (response) {
@@ -492,9 +492,9 @@ const Home = () => {
                             name="FirstName"
                             type="text"
                             className="form-control"
-                            id="form-first-name"
+                            id="form-FirstName"
                             required
-                            {...register("First-name", {
+                            {...register("FirstName", {
                               required: true,
                               maxLength: 20,
                             })}
@@ -508,9 +508,9 @@ const Home = () => {
                             name="LastName"
                             type="text"
                             className="form-control"
-                            id="form-last-name"
+                            id="LastName"
                             required
-                            {...register("Last-name", {
+                            {...register("LastName", {
                               required: true,
                               maxLength: 20,
                             })}
@@ -524,10 +524,13 @@ const Home = () => {
                           <label htmlFor="form-email">Email Id</label>
                           <input
                             type="email"
-                            name="email"
+                            name="emailUser"
                             className="form-control"
-                            id="form-email"
+                            id="emailUser"
                             required
+                            {...register("emailUser", {
+                              required: true,
+                            })}
                           />
                         </div>
                       </Col>
@@ -538,7 +541,7 @@ const Home = () => {
                             type="tel"
                             name="num"
                             className="form-control"
-                            id="form-subject"
+                            id="num"
                             required
                             {...register("num", {
                               required: true,
@@ -555,7 +558,7 @@ const Home = () => {
                         className="form-control"
                         name="message"
                         rows={5}
-                        id="form-message"
+                        id="message"
                         placeholder="We are here to help! "
                         required
                         defaultValue={""}
