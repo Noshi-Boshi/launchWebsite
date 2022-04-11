@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { ErrorMessage } from "@hookform/error-message";
-import _ from "lodash/fp";
+
+import axios from "axios";
+
 import "animate.css";
 import "../css/Home.css";
 import ProductCard from "../components/ProductCard";
@@ -35,7 +36,27 @@ const Home = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => {};
+  const onSubmit = (data) => {
+    axios
+      .post(
+        "https://us-central1-noshiboshi-r.cloudfunctions.net/api/sendMessage",
+        {
+          f_name: data.get("FirstName"),
+          l_name: data.get("LastName"),
+          phoneNum: data.get("num"),
+          message: data.get("message"),
+          email: data.get("email"),
+        }
+      )
+      .then(function (response) {
+        alert("Message sent successfully");
+      })
+      .catch(function (error) {
+        if (error.response) {
+          alert("Error in sending message");
+        }
+      });
+  };
   const handleErrors = () => {
     if (errors.num) {
       alert("Please enter a valid 10 digit number");
