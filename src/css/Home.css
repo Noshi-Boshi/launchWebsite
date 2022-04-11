@@ -99,7 +99,7 @@ a:hover {
   .recipeHeading {
     color: #24465f;
     font-weight: 700;
-    margin-top: 100px;
+    margin-top: 125px;
     margin-left: 260px;
   }
   .cuisine {
@@ -107,7 +107,7 @@ a:hover {
     margin-left: 320px;
   }
   .orderRecipes {
-    margin-top: 100px;
+    margin-top: 60px;
     padding: 0 30px;
     overflow-x: hidden;
   }

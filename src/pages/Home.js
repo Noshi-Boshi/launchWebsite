@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-
+import { useForm } from "react-hook-form";
+import { ErrorMessage } from "@hookform/error-message";
+import _ from "lodash/fp";
+import "animate.css";
 import "../css/Home.css";
 import ProductCard from "../components/ProductCard";
 import malaiKofta from "../assets/Malai kofta/drawable-xxxhdpi/Malai kofta.png";
@@ -27,6 +30,20 @@ import { AnimateSharedLayout } from "framer-motion";
 import Dishes from "../data/recipe";
 
 const Home = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => {};
+  const handleErrors = () => {
+    if (errors.num) {
+      alert("Please enter a valid 10 digit number");
+    } else if (errors.message) {
+      alert("Please enter a message with atleast 10 characters");
+    }
+  };
+
   function onWheel(
     apiObj: scrollVisibilityApiType,
     ev: React.WheelEvent
@@ -82,8 +99,17 @@ const Home = () => {
 
         <p className="iosNewsletter">
           iOS users can place order via
-          <span style={{ color: "#e77063" }}> Instagram DM</span> or
-          <span style={{ color: "#e77063" }}> Whatsapp.</span>
+          <span style={{ color: "#e77063" }}>
+            {" "}
+            <a href="https://www.instagram.com/noshiboshiofficial/">
+              Instagram DM
+            </a>{" "}
+          </span>{" "}
+          or
+          <span style={{ color: "#e77063" }}>
+            {" "}
+            <a href="http://wa.me/+918882355956"> Whatsapp.</a>
+          </span>
         </p>
 
         <a
@@ -211,122 +237,132 @@ const Home = () => {
         <div className="orderRecipes">
           {cuisineMenu === "Continental" && (
             <>
-              <ScrollMenu
-                options={{
-                  ratio: 0.9,
-                  rootMargin: "5px",
-                  onWheel: { onWheel },
-                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
-                }}
-              >
-                {Dishes.map((dish) => (
-                  <>
-                    {dish.Cuisine === "Continental" ? (
-                      <>
-                        <ProductCard product={dish} />
-                      </>
-                    ) : (
-                      <></>
-                    )}
-                  </>
-                ))}
-              </ScrollMenu>
+              <div class="animate__animated animate__fadeInRight animate__delay-0.5s">
+                <ScrollMenu
+                  options={{
+                    ratio: 0.9,
+                    rootMargin: "5px",
+                    onWheel: { onWheel },
+                    threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                  }}
+                >
+                  {Dishes.map((dish) => (
+                    <>
+                      {dish.Cuisine === "Continental" ? (
+                        <>
+                          <ProductCard product={dish} />
+                        </>
+                      ) : (
+                        <></>
+                      )}
+                    </>
+                  ))}
+                </ScrollMenu>
+              </div>
             </>
           )}
           {cuisineMenu === "Chinese" && (
             <>
-              <ScrollMenu
-                options={{
-                  ratio: 0.9,
-                  rootMargin: "5px",
-                  onWheel: { onWheel },
-                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
-                }}
-              >
-                {Dishes.map((dish) => (
-                  <>
-                    {dish.Cuisine === "Chinese" ? (
-                      <>
-                        <ProductCard product={dish} />
-                      </>
-                    ) : (
-                      <></>
-                    )}
-                  </>
-                ))}
-              </ScrollMenu>
+              <div class="animate__animated animate__fadeInRight animate__delay-0.5s">
+                <ScrollMenu
+                  options={{
+                    ratio: 0.9,
+                    rootMargin: "5px",
+                    onWheel: { onWheel },
+                    threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                  }}
+                >
+                  {Dishes.map((dish) => (
+                    <>
+                      {dish.Cuisine === "Chinese" ? (
+                        <>
+                          <ProductCard product={dish} />
+                        </>
+                      ) : (
+                        <></>
+                      )}
+                    </>
+                  ))}
+                </ScrollMenu>
+              </div>
             </>
           )}
           {cuisineMenu === "Indian" && (
             <>
-              <ScrollMenu
-                options={{
-                  ratio: 0.9,
-                  rootMargin: "5px",
-                  onWheel: { onWheel },
-                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
-                }}
-              >
-                {Dishes.map((dish) => (
-                  <>
-                    {dish.Cuisine === "Indian" ? (
-                      <>
-                        <ProductCard product={dish} />
-                      </>
-                    ) : (
-                      <></>
-                    )}
-                  </>
-                ))}
-              </ScrollMenu>
+              <div class="animate__animated animate__fadeInRight animate__delay-0.5s">
+                <ScrollMenu
+                  options={{
+                    ratio: 0.9,
+                    rootMargin: "5px",
+                    onWheel: { onWheel },
+                    threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                  }}
+                >
+                  {Dishes.map((dish) => (
+                    <>
+                      {dish.Cuisine === "Indian" ? (
+                        <>
+                          <ProductCard product={dish} />
+                        </>
+                      ) : (
+                        <></>
+                      )}
+                    </>
+                  ))}
+                </ScrollMenu>
+              </div>
             </>
           )}
           {cuisineMenu === "Mexican" && (
             <>
-              <ScrollMenu
-                options={{
-                  ratio: 0.9,
-                  rootMargin: "5px",
-                  onWheel: { onWheel },
-                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
-                }}
-              >
-                {Dishes.map((dish) => (
-                  <>
-                    {dish.Cuisine === "Mexican" ? (
-                      <>
-                        <ProductCard product={dish} />
-                      </>
-                    ) : (
-                      <></>
-                    )}
-                  </>
-                ))}
-              </ScrollMenu>
+              <div class="animate__animated animate__fadeInRight animate__delay-0.5s">
+                <ScrollMenu
+                  options={{
+                    ratio: 0.9,
+                    rootMargin: "5px",
+                    onWheel: { onWheel },
+                    threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                  }}
+                >
+                  {Dishes.map((dish) => (
+                    <>
+                      {dish.Cuisine === "Mexican" ? (
+                        <>
+                          <ProductCard product={dish} />
+                        </>
+                      ) : (
+                        <></>
+                      )}
+                    </>
+                  ))}
+                </ScrollMenu>
+              </div>
             </>
           )}
           {cuisineMenu === "Italian" && (
             <>
-              <ScrollMenu
-                options={{
-                  ratio: 0.9,
-                  rootMargin: "5px",
-                  onWheel: { onWheel },
-                  threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
-                }}
-              >
-                {Dishes.map((dish) => (
-                  <>
-                    {dish.Cuisine === "Italian" ? (
-                      <>
-                        <ProductCard product={dish} />
-                      </>
-                    ) : (
-                      <></>
-                    )}
-                  </>
-                ))}
-              </ScrollMenu>
+              <div class="animate__animated animate__fadeInRight animate__delay-0.5s">
+                <ScrollMenu
+                  options={{
+                    ratio: 0.9,
+                    rootMargin: "5px",
+                    onWheel: { onWheel },
+                    threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1],
+                  }}
+                >
+                  {Dishes.map((dish) => (
+                    <>
+                      {dish.Cuisine === "Italian" ? (
+                        <>
+                          <ProductCard product={dish} />
+                        </>
+                      ) : (
+                        <></>
+                      )}
+                    </>
+                  ))}
+                </ScrollMenu>
+              </div>
             </>
           )}
         </div>
@@ -424,7 +460,7 @@ const Home = () => {
                 <Col lg={7} style={{ padding: "4% 8%" }}>
                   <form
                     className="my-form"
-                    action="mailto:hello@noshiboshi.com"
+                    onSubmit={handleSubmit(onSubmit)}
                     method="POST"
                   >
                     <Row>
@@ -432,11 +468,15 @@ const Home = () => {
                         <div className="form-group">
                           <label htmlFor="form-first-name">First Name</label>
                           <input
-                            name="First-name"
+                            name="FirstName"
                             type="text"
                             className="form-control"
                             id="form-first-name"
                             required
+                            {...register("First-name", {
+                              required: true,
+                              maxLength: 20,
+                            })}
                           />
                         </div>
                       </Col>
@@ -444,11 +484,15 @@ const Home = () => {
                         <div className="form-group">
                           <label htmlFor="form-last-name">Last Name</label>
                           <input
-                            name="Last-Name"
+                            name="LastName"
                             type="text"
                             className="form-control"
                             id="form-last-name"
                             required
+                            {...register("Last-name", {
+                              required: true,
+                              maxLength: 20,
+                            })}
                           />
                         </div>
                       </Col>
@@ -475,6 +519,11 @@ const Home = () => {
                             className="form-control"
                             id="form-subject"
                             required
+                            {...register("num", {
+                              required: true,
+                              minLength: 10,
+                              maxLength: 10,
+                            })}
                           />
                         </div>
                       </Col>
@@ -489,11 +538,18 @@ const Home = () => {
                         placeholder="We are here to help! "
                         required
                         defaultValue={""}
+                        {...register("message", {
+                          required: true,
+                          minLength: 10,
+                          maxLength: 250,
+                        })}
                       />
                     </div>
+
                     <button
                       className="btn btn-secondary button submit-button"
                       type="submit"
+                      onClick={handleErrors}
                     >
                       Send message
                     </button>

@@ -1,10 +1,11 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import "../css/ProductCard.css";
 
 const Product = ({ product }) => {
   return (
     <Card
-      className="bg-dark text-white"
+      className=" text-white "
       style={{
         width: "214px",
         height: "270px",
@@ -18,15 +19,16 @@ const Product = ({ product }) => {
         src={product.ImageUrl}
         alt="Card image"
         style={{
-          opacity: "0.45",
+          zIndex: "-1",
+          opacity: "1",
           width: "100%",
-          height: "16.87em",
+          height: "270px",
           borderRadius: "25px",
         }}
       />
-      <Card.ImgOverlay>
-        <Card.Title style={{ marginTop: "165px" }}>{product.Name}</Card.Title>
-        <Card.Text style={{ margin: "0px" }}>25 min | 675 kcal</Card.Text>
+      <Card.ImgOverlay className="gradient" style={{ borderRadius: "25px" }}>
+        <Card.Title style={{ marginTop: "170px" }}>{product.Name}</Card.Title>
+        <Card.Text style={{ marginTop: "-5px" }}>25 min | 675 kcal</Card.Text>
         {/* <Card.Text>₹ 450</Card.Text> */}
       </Card.ImgOverlay>
     </Card>
