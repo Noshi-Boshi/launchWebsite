@@ -11,8 +11,6 @@ import Terms from "./pages/Terms";
 
 import { Routes, Route, Outlet, Link, BrowserRouter } from "react-router-dom";
 
-import ScrollToTop from "./components/ScrollToTop";
-
 function App() {
   const { innerWidth: width, innerHeight: height } = window;
   return (
