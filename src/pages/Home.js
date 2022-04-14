@@ -36,7 +36,7 @@ const Home = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => {
+  const onSubmit = (data, e) => {
     axios
       .post(
         "https://us-central1-noshiboshi-r.cloudfunctions.net/api/sendMessage",
@@ -50,6 +50,7 @@ const Home = () => {
       )
       .then(function (response) {
         alert("Message sent successfully");
+        e.target.reset();
       })
       .catch(function (error) {
         if (error.response) {

@@ -28,7 +28,9 @@ const Product = ({ product }) => {
       />
       <Card.ImgOverlay className="gradient" style={{ borderRadius: "25px" }}>
         <Card.Title style={{ marginTop: "170px" }}>{product.Name}</Card.Title>
-        <Card.Text style={{ marginTop: "-5px" }}>25 min | 675 kcal</Card.Text>
+        <Card.Text style={{ marginTop: "-5px" }}>
+          {product.Time} | {product.Calories} kcal
+        </Card.Text>
         {/* <Card.Text>₹ 450</Card.Text> */}
       </Card.ImgOverlay>
     </Card>

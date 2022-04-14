@@ -70,8 +70,34 @@ const Navbar = () => {
         <div className="content-down">
           <i>
             iOS users can place order via
-            <span style={{ color: "#e77063" }}> Instagram DM</span> or
-            <span style={{ color: "#e77063" }}> Whatsapp.</span>
+            <span style={{ color: "#e77063" }}>
+              <a
+                style={{
+                  color: "#e77063",
+                  fontSize: "15px",
+                  display: "inline",
+                  marginLeft: "-18px",
+                }}
+                href="https://www.instagram.com/noshiboshiofficial/"
+              >
+                Instagram DM
+              </a>
+            </span>
+            or
+            <span>
+              <a
+                style={{
+                  color: "#e77063",
+                  fontSize: "15px",
+                  marginLeft: "-30px",
+                  marginTop: "-6  px",
+                }}
+                href="http://wa.me/+918882355956"
+              >
+                {" "}
+                Whatsapp.
+              </a>
+            </span>
           </i>
         </div>
       </div>
