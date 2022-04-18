@@ -26,6 +26,7 @@ const Product = ({ product }) => {
             width: "100%",
             height: "270px",
             borderRadius: "25px",
+            objectFit: "cover",
           }}
         />
         <Card.ImgOverlay className="gradient" style={{ borderRadius: "25px" }}>
