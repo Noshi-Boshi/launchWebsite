@@ -7,6 +7,7 @@ import FooterMob from "./components/Footer_mob";
 import Delivery from "./pages/Delivery";
 import Policy from "./pages/Policies";
 import Cancellation from "./pages/Cancellation";
+import Redirect from "./pages/Redirect";
 import Terms from "./pages/Terms";
 
 import { Routes, Route, Outlet, Link, BrowserRouter } from "react-router-dom";
@@ -21,13 +22,15 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route path="deliveryShipping" element={<Delivery />} />
+          <Route path="/deliveryShipping" element={<Delivery />} />
 
-          <Route path="privacyPolicy" element={<Policy />} />
+          <Route path="/privacyPolicy" element={<Policy />} />
 
-          <Route path="cancellationAndRefund" element={<Cancellation />} />
+          <Route path="/cancellationAndRefund" element={<Cancellation />} />
 
-          <Route path="termsOfService" element={<Terms />} />
+          <Route path="/termsOfService" element={<Terms />} />
+
+          <Route path="/androidApp" element={<Redirect />} />
         </Routes>
 
         {width > 765 ? <Footer /> : <FooterMob />}
