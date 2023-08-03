@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Noshi-Boshi/launchWebsite/static/css/main.25b91d40.css",
+    "main.js": "/Noshi-Boshi/launchWebsite/static/js/main.d2a73ab0.js",
+    "static/js/787.e62ad6eb.chunk.js": "/Noshi-Boshi/launchWebsite/static/js/787.e62ad6eb.chunk.js",
+    "static/media/Malai kofta Mobile.png": "/Noshi-Boshi/launchWebsite/static/media/Malai kofta Mobile.c12723ee597352edec5a.png",
+    "static/media/Spaghetti Aglio e Olio.png": "/Noshi-Boshi/launchWebsite/static/media/Spaghetti Aglio e Olio.fc06dd32f5fc708101fe.png",
+    "static/media/Veg Shami-Kabab.png": "/Noshi-Boshi/launchWebsite/static/media/Veg Shami-Kabab.05856d2deb04692fe9f9.png",
+    "static/media/Raspberry Ricotta Cake.png": "/Noshi-Boshi/launchWebsite/static/media/Raspberry Ricotta Cake.2a70d9e9bf14053b253f.png",
+    "static/media/Malai kofta.png": "/Noshi-Boshi/launchWebsite/static/media/Malai kofta.42a54c0cafd6ab5a3fa2.png",
+    "static/media/Blue coral log.png": "/Noshi-Boshi/launchWebsite/static/media/Blue coral log.806d3bf8142455381de8.png",
+    "static/media/Blue Mockup of Death2.png": "/Noshi-Boshi/launchWebsite/static/media/Blue Mockup of Death2.800d1f172b8ec11e48b9.png",
+    "static/media/Group 1.png": "/Noshi-Boshi/launchWebsite/static/media/Group 1.b921d80e5f08d716aa84.png",
+    "static/media/googlePLay.png": "/Noshi-Boshi/launchWebsite/static/media/googlePLay.f902960a94878ee0da67.png",
+    "static/media/Blue coral logo with name.png": "/Noshi-Boshi/launchWebsite/static/media/Blue coral logo with name.14a7eb28335173367ed6.png",
+    "index.html": "/Noshi-Boshi/launchWebsite/index.html",
+    "main.25b91d40.css.map": "/Noshi-Boshi/launchWebsite/static/css/main.25b91d40.css.map",
+    "main.d2a73ab0.js.map": "/Noshi-Boshi/launchWebsite/static/js/main.d2a73ab0.js.map",
+    "787.e62ad6eb.chunk.js.map": "/Noshi-Boshi/launchWebsite/static/js/787.e62ad6eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25b91d40.css",
+    "static/js/main.d2a73ab0.js"
+  ]
+}
